@@ -1,11 +1,12 @@
 {
   "urls": [
     {
-      "name": "🌟 我的频道", 
-      "url": "https://gh-proxy.com/https://github.com/evsh1010/ym/raw/main/an/e5an.json"
+      "name": "🌟 我的频道 (直连)",
+      "url": "https://raw.githubusercontent.com/evsh1010/ym/main/an/.json"
+    },
+    {
+      "name": "🌟 我的频道 (代理)",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/evsh1010/ym/main/an/.json"
     }
   ]
-
 }
-
-
