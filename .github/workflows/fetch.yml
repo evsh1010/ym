@@ -1,9 +1,9 @@
-name: Update bc.m3u Automatically
+name: Update bc.m3u
 
 on:
+  workflow_dispatch: # 手动触发
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 0 点
-  workflow_dispatch:
+    - cron: '0 0 * * *' # 每天 UTC 0 点
 
 permissions:
   contents: write
@@ -20,40 +20,45 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install puppeteer
+        run: npm install axios
 
-      - name: Fetch dynamic m3u content
+      - name: Generate bc.m3u
         run: |
-          node <<'EOF'
+          node -e "
           const fs = require('fs');
-          const puppeteer = require('puppeteer');
+          const axios = require('axios');
 
+          const url = process.env.BINGCHA_URL;
           (async () => {
-            const url = process.env.BINGCHA_URL;
-            const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
-            const page = await browser.newPage();
-
-            await page.goto(url, { waitUntil: 'networkidle0' });
-            const content = await page.content();
-
-            // 提取 m3u 或 token 链接
-            // 注意这里需要根据页面实际结构解析
-            let m3uMatch = content.match(/https:\/\/migu\.188766\.xyz\/\?migutoken=[^"]+/g);
-            let m3uText = '#EXTM3U\n' + (m3uMatch ? m3uMatch.map(u => `#EXTINF:-1,Channel\n${u}`).join('\n') : '');
-            
-            fs.writeFileSync('bc.m3u', m3uText);
-            await browser.close();
+            try {
+              const res = await axios.get(url);
+              const data = res.data.toString();
+              // 简单正则抓取 migu 链接
+              const links = data.match(/https:\/\/migu\.188766\.xyz\/\?migutoken=[a-z0-9]+&id=[A-Z0-9]+&type=yy/g);
+              let m3u = '#EXTM3U\\n';
+              if (links) {
+                links.forEach(link => {
+                  const idMatch = link.match(/id=([A-Z0-9]+)/);
+                  const id = idMatch ? idMatch[1] : 'unknown';
+                  m3u += `#EXTINF:-1,tvg-id=\"${id}\",${id}\\n${link}\\n`;
+                });
+              }
+              fs.writeFileSync('bc.m3u', m3u);
+            } catch(e) {
+              console.error(e);
+              process.exit(1);
+            }
           })();
-          EOF
+        "
         env:
           BINGCHA_URL: ${{ secrets.BINGCHA_URL }}
 
-      - name: Commit and push if changes
+      - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add bc.m3u
-          git commit -m "Update bc.m3u" || echo "No changes to commit"
+          git commit -m "Update bc.m3u" || echo "No changes"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
