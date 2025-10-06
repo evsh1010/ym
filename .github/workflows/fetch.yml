@@ -1,98 +1,30 @@
-name: Update ds.png (minimal stable)
+name: Update bc.png
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # 每天 UTC 00:00
-  workflow_dispatch:      # 支持手动触发
+    - cron: '0 0 * * *'   # 每天 UTC 0 点
+  workflow_dispatch:       # 支持手动触发
 
 permissions:
   contents: write
 
 jobs:
-  fetch-and-merge:
+  update-file:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Prepare directories
+      - name: Download bc.png
         run: |
-          mkdir -p an/backups || true
+          mkdir -p an
+          curl -fsSL "https://fy.188766.xyz/all.xml.gz" -o an/bc.png || echo "Download failed, keeping old bc.png"
 
-      - name: Download big source (ignore errors)
-        shell: bash
-        run: |
-          TMP="an/fy.tmp"
-          URL="https://fy.188766.xyz/all.xml.gz"
-          echo "Downloading $URL ..."
-          curl -fsSL --retry 2 "$URL" -o "$TMP" || TMP=""
-          if [ -n "$TMP" ]; then
-            HEAD=$(head -n 1 "$TMP" 2>/dev/null)
-            if [[ ! "$HEAD" =~ ^\#EXTM3U|^\<\?xml|^\<tv ]]; then
-              echo "Downloaded file header invalid — skipping update."
-              TMP=""
-            fi
-          fi
-
-      - name: Merge with my source
-        shell: bash
-        run: |
-          OUT="an/ds.png"
-          MY_SRC="an/ds.png"
-          BACKUP_DIR="an/backups"
-
-          # 第一次备份
-          if [ ! -f "${BACKUP_DIR}/ds.png.first.bak" ] && [ -f "$OUT" ]; then
-            cp "$OUT" "${BACKUP_DIR}/ds.png.first.bak" || true
-            echo "First backup created: ${BACKUP_DIR}/ds.png.first.bak"
-          fi
-
-          if [ -z "$TMP" ]; then
-            echo "No big source downloaded — skipping merge."
-            exit 0
-          fi
-
-          MERGED="an/ds.tmp"
-          > "$MERGED"
-
-          # 将你自己的源存到临时文件里：id|URL
-          MY_TEMP="an/my_source.tmp"
-          > "$MY_TEMP"
-          if [ -f "$MY_SRC" ]; then
-            grep -E '^https?://' "$MY_SRC" | while read -r url; do
-              id=$(echo "$url" | sed -n 's/.*id=\([^&]*\).*/\1/p') || true
-              if [ -n "$id" ]; then
-                echo "$id|$url" >> "$MY_TEMP"
-              fi
-            done || true
-          fi
-
-          # 遍历大佬源并合并
-          while IFS= read -r line; do
-            echo "$line" >> "$MERGED"
-            id=$(echo "$line" | sed -n 's/.*id=\([^&]*\).*/\1/p') || true
-            if [ -n "$id" ]; then
-              match=$(grep "^$id|" "$MY_TEMP" | cut -d'|' -f2- || true)
-              if [ -n "$match" ]; then
-                echo "$match" >> "$MERGED"
-              fi
-            fi
-          done < "$TMP"
-
-          mv "$MERGED" "$OUT" || true
-          echo "Merged file saved to $OUT"
-
-      - name: Commit & push
-        shell: bash
+      - name: Commit and push if changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add an/ds.png an/backups || true
-          git diff --cached --quiet || CHANGED=$?
-          if [ -n "$CHANGED" ]; then
-            git commit -m "Auto-update ds.png (merge my source)" || true
-            git push || echo "Push failed."
-          else
-            echo "No changes to commit."
+          git add an/bc.png
+          git commit -m "Update bc.png" || echo "No changes to commit"
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
