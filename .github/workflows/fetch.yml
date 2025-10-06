@@ -1,4 +1,4 @@
-name: 更新 BINGCHA 文件
+name: Update BC File
 
 on:
   workflow_dispatch:
@@ -10,24 +10,24 @@ jobs:
   update-bc:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Download BINGCHA subscription via Proxy
+      - name: Download BC Subscription via Proxy
         run: |
           mkdir -p an
-          # 通过代理下载订阅源
+          # Download subscription file through proxy
           curl -L "${{ secrets.BINGCHA_URL }}" -o an/bc.m3u
 
-      - name: Optional: Display first few lines
+      - name: Preview Downloaded File
         run: head -n 10 an/bc.m3u
 
-      - name: Commit and push if changed
+      - name: Commit and Push if Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add an/bc.m3u
-          git commit -m "更新 bc 文件" || echo "No changes to commit"
+          git commit -m "Update bc.m3u file" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
