@@ -1,9 +1,9 @@
-name: Update bc.m3u via Proxy
+name: Update bc.m3u Automatically
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # 每天 UTC 0 点
-  workflow_dispatch:       # 允许手动触发
+    - cron: '0 0 * * *'  # 每天 UTC 0 点
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -14,28 +14,46 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Ensure folder exists
-        run: mkdir -p an
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
 
-      - name: Download and extract bc.m3u via proxy
+      - name: Install dependencies
+        run: npm install puppeteer
+
+      - name: Fetch dynamic m3u content
         run: |
-          echo "Downloading from proxy..."
-          curl -L "https://gh-proxy.com/${{ secrets.BINGCHA_URL }}" -o tmp.gz
-          
-          if file tmp.gz | grep -q gzip; then
-            gunzip -c tmp.gz > an/bc.m3u
-            echo "Download and extract succeeded"
-          else
-            echo "Download failed or not a gzip file"
-            exit 1
-          fi
+          node <<'EOF'
+          const fs = require('fs');
+          const puppeteer = require('puppeteer');
+
+          (async () => {
+            const url = process.env.BINGCHA_URL;
+            const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
+            const page = await browser.newPage();
+
+            await page.goto(url, { waitUntil: 'networkidle0' });
+            const content = await page.content();
+
+            // 提取 m3u 或 token 链接
+            // 注意这里需要根据页面实际结构解析
+            let m3uMatch = content.match(/https:\/\/migu\.188766\.xyz\/\?migutoken=[^"]+/g);
+            let m3uText = '#EXTM3U\n' + (m3uMatch ? m3uMatch.map(u => `#EXTINF:-1,Channel\n${u}`).join('\n') : '');
+            
+            fs.writeFileSync('bc.m3u', m3uText);
+            await browser.close();
+          })();
+          EOF
+        env:
+          BINGCHA_URL: ${{ secrets.BINGCHA_URL }}
 
       - name: Commit and push if changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add an/bc.m3u
-          git commit -m "Update bc.m3u via proxy" || echo "No changes to commit"
+          git add bc.m3u
+          git commit -m "Update bc.m3u" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
