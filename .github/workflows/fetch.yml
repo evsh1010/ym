@@ -2,7 +2,7 @@ name: Update bc.png from subscription (auto, secret URL)
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # 每天 UTC 00:00
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 permissions:
@@ -14,27 +14,20 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml
 
-      - name: Download subscription and generate full M3U bc.png
+      - name: Download subscription and generate bc.png
         run: |
           mkdir -p an
           OUT="an/bc.png"
-          SUB_URL="${{ secrets.BINGCHA_URL }}"  # 使用你的 secret 名称
+          SUB_URL="${{ secrets.BINGCHA_URL }}"
 
-          echo "Fetching subscription content and generating M3U ..."
+          echo "Fetching subscription..."
           python - << 'EOF'
-import requests
-import re
-import os
+import requests, gzip, io, os, re
 
 sub_url = os.environ["SUB_URL"]
 out_file = os.environ["OUT"]
@@ -42,21 +35,22 @@ out_file = os.environ["OUT"]
 try:
     r = requests.get(sub_url, timeout=30)
     r.raise_for_status()
-    data = r.text
+    
+    # 自动解压 gzip，如果是压缩文件
+    content = r.content
+    if content[:2] == b'\x1f\x8b':
+        content = gzip.decompress(content)
+    text = content.decode('utf-8', errors='ignore')
 
     m3u_lines = ['#EXTM3U x-tvg-url="https://fy.188766.xyz/all.xml.gz" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"\n']
 
-    # 匹配 URL 和频道名
-    pattern = re.compile(r'(https?://[^\s]+)')
-    urls = pattern.findall(data)
-
+    urls = re.findall(r'(https?://[^\s]+)', text)
     for url in urls:
         match = re.search(r'id=([A-Za-z0-9_]+)', url)
         channel_name = match.group(1) if match else "Channel"
-        logo_url = f"https://fy.188766.xyz/logo/fanmingming/live/tv/{channel_name}.png"
+        logo = f"https://fy.188766.xyz/logo/fanmingming/live/tv/{channel_name}.png"
         group_title = "大佬频道"
-
-        m3u_lines.append(f'#EXTINF:-1 tvg-id="{channel_name}" tvg-name="{channel_name}" tvg-logo="{logo_url}" group-title="{group_title}",{channel_name}\n')
+        m3u_lines.append(f'#EXTINF:-1 tvg-id="{channel_name}" tvg-name="{channel_name}" tvg-logo="{logo}" group-title="{group_title}",{channel_name}\n')
         m3u_lines.append(url + "\n")
 
     with open(out_file, "w", encoding="utf-8") as f:
@@ -65,7 +59,7 @@ try:
     print(f"{out_file} generated successfully!")
 
 except Exception as e:
-    print(f"Failed to fetch or generate bc.png: {e}")
+    print(f"Download failed, keeping existing file. Error: {e}")
 EOF
 
       - name: Commit & push if changes
@@ -73,7 +67,7 @@ EOF
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add an/bc.png || true
-          git commit -m "Update bc.png from subscription link (secret URL)" || echo "No changes to commit"
+          git commit -m "Update bc.png from BINGCHA_URL" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
