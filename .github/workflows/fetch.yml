@@ -1,9 +1,7 @@
-name: Update bc.m3u
+name: 更新 BINGCHA 文件
 
 on:
-  workflow_dispatch: # 手动触发
-  schedule:
-    - cron: '0 0 * * *' # 每天 UTC 0 点
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,53 +10,24 @@ jobs:
   update-bc:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: npm install axios
-
-      - name: Generate bc.m3u
+      - name: Download BINGCHA subscription via Proxy
         run: |
-          node -e "
-          const fs = require('fs');
-          const axios = require('axios');
+          mkdir -p an
+          # 通过代理下载订阅源
+          curl -L "${{ secrets.BINGCHA_URL }}" -o an/bc.m3u
 
-          const url = process.env.BINGCHA_URL;
-          (async () => {
-            try {
-              const res = await axios.get(url);
-              const data = res.data.toString();
-              // 简单正则抓取 migu 链接
-              const links = data.match(/https:\/\/migu\.188766\.xyz\/\?migutoken=[a-z0-9]+&id=[A-Z0-9]+&type=yy/g);
-              let m3u = '#EXTM3U\\n';
-              if (links) {
-                links.forEach(link => {
-                  const idMatch = link.match(/id=([A-Z0-9]+)/);
-                  const id = idMatch ? idMatch[1] : 'unknown';
-                  m3u += `#EXTINF:-1,tvg-id=\"${id}\",${id}\\n${link}\\n`;
-                });
-              }
-              fs.writeFileSync('bc.m3u', m3u);
-            } catch(e) {
-              console.error(e);
-              process.exit(1);
-            }
-          })();
-        "
-        env:
-          BINGCHA_URL: ${{ secrets.BINGCHA_URL }}
+      - name: Optional: Display first few lines
+        run: head -n 10 an/bc.m3u
 
-      - name: Commit & Push
+      - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add bc.m3u
-          git commit -m "Update bc.m3u" || echo "No changes"
+          git add an/bc.m3u
+          git commit -m "更新 bc 文件" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
