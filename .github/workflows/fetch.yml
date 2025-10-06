@@ -33,7 +33,6 @@ jobs:
           echo "Fetching subscription content and generating M3U ..."
           python - << 'EOF'
 import requests
-from bs4 import BeautifulSoup
 import re
 import os
 
