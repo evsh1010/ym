@@ -1,4 +1,4 @@
-name: Update ds.png (merge with my source)
+name: Update ds.png (merge with my source, stable)
 
 on:
   schedule:
@@ -19,22 +19,30 @@ jobs:
         run: |
           mkdir -p an/backups
 
-      - name: Download latest big source
+      - name: Download latest big source (non-fatal)
         run: |
+          set +e
           TMP="an/fy.tmp"
           URL="https://fy.188766.xyz/all.xml.gz"
           echo "Downloading $URL ..."
-          curl -fsSL --retry 2 "$URL" -o "$TMP" || { echo "Download failed"; exit 0; }
+          curl -fsSL --retry 2 "$URL" -o "$TMP"
+          STATUS=$?
+          if [ $STATUS -ne 0 ]; then
+            echo "Download failed — skipping update."
+            exit 0
+          fi
 
-          # 校验文件头
-          if ! head -n 1 "$TMP" | grep -qiE '^\#EXTM3U|^\<\?xml|^\<tv'; then
-            echo "Downloaded file header invalid — aborting."
+          # 简单校验文件头
+          head1=$(head -n 1 "$TMP")
+          if ! echo "$head1" | grep -qiE '^\#EXTM3U|^\<\?xml|^\<tv'; then
+            echo "Downloaded file header invalid — skipping update."
             rm -f "$TMP"
             exit 0
           fi
 
       - name: Merge with my source
         run: |
+          set +e
           OUT="an/ds.png"
           TMP="an/fy.tmp"
           MY_SRC="an/ds.png"  # 你自己频道列表
@@ -51,12 +59,12 @@ jobs:
           # 读取你源到字典：频道ID -> URL
           declare -A my_urls
           if [ -f "$MY_SRC" ]; then
-            grep -E '^https?://' "$MY_SRC" | while read -r url; do
-              # 假设你的每行 URL 前一行是 #EXTINF:-1,<频道名> 或直接使用 URL 注释
-              # 这里只用简单方式：频道ID从 URL中的 id= 后取
+            while read -r url; do
               id=$(echo "$url" | grep -oP 'id=\K[^&]+')
-              my_urls["$id"]="$url"
-            done
+              if [ -n "$id" ]; then
+                my_urls["$id"]="$url"
+              fi
+            done < <(grep -E '^https?://' "$MY_SRC")
           fi
 
           # 输出合并结果
