@@ -2,7 +2,7 @@ name: Update bc.png
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # 每天 UTC 0 点
+    - cron: '0 0 * * *'   # 每天 UTC 00:00
   workflow_dispatch:       # 支持手动触发
 
 permissions:
@@ -14,17 +14,29 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Download bc.png
+      - name: Download and decompress bc.png
+        shell: bash
         run: |
           mkdir -p an
-          curl -fsSL "https://fy.188766.xyz/all.xml.gz" -o an/bc.png || echo "Download failed, keeping old bc.png"
+          TMP="an/bc.tmp.gz"
+          OUT="an/bc.png"
+          URL="https://fy.188766.xyz/all.xml.gz"
+
+          echo "Downloading $URL ..."
+          curl -fsSL "$URL" -o "$TMP" || { echo "Download failed, keeping old bc.png"; exit 0; }
+
+          echo "Decompressing ..."
+          gunzip -c "$TMP" > "$OUT" || { echo "Decompression failed, keeping old bc.png"; exit 0; }
+
+          echo "bc.png updated successfully"
 
       - name: Commit and push if changes
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add an/bc.png
-          git commit -m "Update bc.png" || echo "No changes to commit"
+          git add an/bc.png || true
+          git commit -m "Update bc.png (decompressed)" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
