@@ -1,33 +1,182 @@
-name: Update BC File
+name: Update BC File (Puppeteer)
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # optional: run daily at 00:00 UTC
 
 permissions:
   contents: write
 
 jobs:
-  update-bc:
+  fetch-m3u:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Download BC Subscription via Proxy
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
         run: |
-          mkdir -p an
-          # Download subscription file through proxy
-          curl -L "${{ secrets.BINGCHA_URL }}" -o an/bc.m3u
+          npm init -y
+          npm install puppeteer-extra puppeteer-extra-plugin-stealth puppeteer axios
+      - name: Run fetch script (Puppeteer)
+        env:
+          BINGCHA_URL: ${{ secrets.BINGCHA_URL }}
+          HTTP_PROXY: ${{ secrets.HTTP_PROXY }}    # optional, set if you need outbound proxy
+        run: |
+          node <<'NODEJS'
+          const fs = require('fs');
+          const puppeteer = require('puppeteer-extra');
+          const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+          const axios = require('axios');
 
-      - name: Preview Downloaded File
-        run: head -n 10 an/bc.m3u
+          puppeteer.use(StealthPlugin());
 
-      - name: Commit and Push if Changes
+          (async () => {
+            const url = process.env.BINGCHA_URL;
+            if (!url) {
+              console.error('BINGCHA_URL not set');
+              process.exit(1);
+            }
+
+            // Optional proxy support via env HTTP_PROXY (set as http://user:pass@host:port)
+            const proxy = process.env.HTTP_PROXY || null;
+            const launchArgs = ['--no-sandbox', '--disable-setuid-sandbox'];
+            if (proxy) {
+              launchArgs.push(`--proxy-server=${proxy}`);
+              console.log('Using proxy:', proxy);
+            }
+
+            let browser;
+            try {
+              browser = await puppeteer.launch({
+                headless: true,
+                args: launchArgs,
+              });
+
+              const page = await browser.newPage();
+              // basic headers to look like a real browser
+              await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36');
+              await page.setExtraHTTPHeaders({
+                'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8'
+              });
+
+              // navigate and wait until network minimal
+              console.log('Navigating to', url);
+              await page.goto(url, { waitUntil: 'networkidle2', timeout: 45000 });
+
+              // wait a little longer for JS to populate
+              await page.waitForTimeout(3000);
+
+              // get page content and try to extract migu links or m3u content
+              const html = await page.content();
+
+              // try to match direct migu links
+              const miguRegex = /https?:\/\/migu\.188766\.xyz\/\?[^"'<> \n\r]*/ig;
+              let links = Array.from(new Set((html.match(miguRegex) || [])));
+
+              // Also try to find any .m3u or #EXTM3U content in the DOM
+              let m3uText = '';
+              // try to find pre or textarea that may contain M3U content
+              const preTexts = await page.$$eval('pre,textarea,body', els => els.map(e => e.innerText || ''));
+              // merge and search for m3u header
+              const merged = preTexts.join('\n');
+              if (/^\s*#EXTM3U/m.test(merged)) {
+                // if merged contains real m3u, use it directly
+                m3uText = merged;
+              }
+
+              // if no m3uText but we have migu links, construct m3u
+              if (!m3uText && links.length) {
+                m3uText = '#EXTM3U\n';
+                links.forEach((u, idx) => {
+                  // try to extract id param for name
+                  const idMatch = u.match(/[?&]id=([^&]+)/i);
+                  const id = idMatch ? idMatch[1] : `Channel${idx+1}`;
+                  m3uText += `#EXTINF:-1 tvg-id="${id}" tvg-name="${id}",${id}\n${u}\n`;
+                });
+              }
+
+              // as additional fallback: try to request the raw URL (if html contained a link to .gz)
+              if (!m3uText) {
+                // search for .gz or .m3u references
+                const gzMatch = html.match(/https?:\/\/[^\s'"]+\.xml\.gz/);
+                const m3uMatch = html.match(/https?:\/\/[^\s'"]+\.m3u(8)?/);
+                const target = (m3uMatch && m3uMatch[0]) || (gzMatch && gzMatch[0]);
+                if (target) {
+                  console.log('Found candidate file:', target);
+                  // try download via axios (respecting proxy if set)
+                  try {
+                    const axiosConfig = {};
+                    if (proxy) axiosConfig.proxy = false; // let env var handle
+                    const resp = await axios.get(target, { responseType: 'arraybuffer', timeout: 30000 });
+                    const buf = Buffer.from(resp.data);
+                    // try gz detection
+                    if (buf[0] === 0x1f && buf[1] === 0x8b) {
+                      // gzip -> decompress
+                      const zlib = require('zlib');
+                      const txt = zlib.gunzipSync(buf).toString('utf8');
+                      if (/^\s*#EXTM3U/m.test(txt)) {
+                        m3uText = txt;
+                      } else {
+                        // fallback to saving raw txt
+                        m3uText = txt;
+                      }
+                    } else {
+                      const txt = buf.toString('utf8');
+                      if (/^\s*#EXTM3U/m.test(txt)) m3uText = txt;
+                    }
+                  } catch (e) {
+                    console.warn('Failed to fetch candidate file:', e.message || e);
+                  }
+                }
+              }
+
+              if (!m3uText) {
+                console.error('No m3u content or migu links found. Sample links length:', links.length);
+                // dump some html snippet for debugging (short)
+                const snippet = html.slice(0, 2000);
+                fs.writeFileSync('an/fetch_debug.html', snippet);
+                await browser.close();
+                process.exit(2); // special exit for "no content"
+              }
+
+              // write to file
+              fs.mkdirSync('an', { recursive: true });
+              fs.writeFileSync('an/bc.m3u', m3uText, 'utf8');
+              console.log('Wrote an/bc.m3u with length', m3uText.length);
+
+              await browser.close();
+              process.exit(0);
+            } catch (err) {
+              console.error('Error in fetch script:', err);
+              if (browser) await browser.close();
+              process.exit(1);
+            }
+          })();
+          NODEJS
+      - name: Show file preview
+        run: |
+          echo "=== bc.m3u preview ==="
+          head -n 40 an/bc.m3u || true
+          echo "=== debug file if exists ==="
+          [ -f an/fetch_debug.html ] && echo "debug snippet saved at an/fetch_debug.html" || true
+
+      - name: Commit and push if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add an/bc.m3u
-          git commit -m "Update bc.m3u file" || echo "No changes to commit"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git add an/bc.m3u an/fetch_debug.html || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto update bc.m3u via Puppeteer" || true
+            git push
+          fi
