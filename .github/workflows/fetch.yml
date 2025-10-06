@@ -1,9 +1,9 @@
-name: Update bc file
+name: Update bc.m3u via Proxy
 
 on:
   schedule:
     - cron: '0 0 * * *'   # 每天 UTC 0 点
-  workflow_dispatch:       # 手动触发
+  workflow_dispatch:       # 允许手动触发
 
 permissions:
   contents: write
@@ -12,21 +12,22 @@ jobs:
   update-bc:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Create directory
+      - name: Ensure directory exists
         run: mkdir -p an
 
-      - name: Download bc.png from BINGCHA_URL via gh-proxy
+      - name: Download and extract bc.m3u via proxy
         run: |
-          curl -L "https://gh-proxy.com/${{ secrets.BINGCHA_URL }}" -o an/bc.png
+          curl -L "https://gh-proxy.com/${{ secrets.BINGCHA_URL }}" | gunzip > an/bc.m3u
 
-      - name: Commit and push if changes
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add an/bc.png
-          git commit -m "Update bc.png from BINGCHA_URL" || echo "No changes to commit"
+          git add an/bc.m3u
+          git commit -m "Update bc.m3u from remote source via proxy" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
