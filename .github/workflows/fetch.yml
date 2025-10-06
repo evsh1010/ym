@@ -1,37 +1,90 @@
-name: Update ds.png
+name: Update ds.png (merge with my source)
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # 每天 UTC 0 点
-  workflow_dispatch:       # 允许手动触发
+    - cron: '0 0 * * *'   # 每天 UTC 00:00
+  workflow_dispatch:      # 支持手动触发
 
 permissions:
   contents: write
 
 jobs:
-  update-file:
+  fetch-and-merge:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
 
-      - name: Show file status
+      - name: Prepare dirs
         run: |
-          echo "Current status of an/ds.png:"
-          git status an/ds.png
+          mkdir -p an/backups
 
-      - name: Commit and push safely
+      - name: Download latest big source
+        run: |
+          TMP="an/fy.tmp"
+          URL="https://fy.188766.xyz/all.xml.gz"
+          echo "Downloading $URL ..."
+          curl -fsSL --retry 2 "$URL" -o "$TMP" || { echo "Download failed"; exit 0; }
+
+          # 校验文件头
+          if ! head -n 1 "$TMP" | grep -qiE '^\#EXTM3U|^\<\?xml|^\<tv'; then
+            echo "Downloaded file header invalid — aborting."
+            rm -f "$TMP"
+            exit 0
+          fi
+
+      - name: Merge with my source
+        run: |
+          OUT="an/ds.png"
+          TMP="an/fy.tmp"
+          MY_SRC="an/ds.png"  # 你自己频道列表
+          BACKUP_DIR="an/backups"
+
+          # 第一次备份
+          if [ ! -d "$BACKUP_DIR" ] || [ -z "$(ls -A $BACKUP_DIR 2>/dev/null)" ]; then
+            if [ -f "$OUT" ]; then
+              cp "$OUT" "${BACKUP_DIR}/ds.png.first.bak"
+              echo "First backup created: ${BACKUP_DIR}/ds.png.first.bak"
+            fi
+          fi
+
+          # 读取你源到字典：频道ID -> URL
+          declare -A my_urls
+          if [ -f "$MY_SRC" ]; then
+            grep -E '^https?://' "$MY_SRC" | while read -r url; do
+              # 假设你的每行 URL 前一行是 #EXTINF:-1,<频道名> 或直接使用 URL 注释
+              # 这里只用简单方式：频道ID从 URL中的 id= 后取
+              id=$(echo "$url" | grep -oP 'id=\K[^&]+')
+              my_urls["$id"]="$url"
+            done
+          fi
+
+          # 输出合并结果
+          MERGED="an/ds.tmp"
+          > "$MERGED"
+
+          while IFS= read -r line; do
+            echo "$line" >> "$MERGED"
+            if [[ "$line" =~ id=([^&]+) ]]; then
+              id="${BASH_REMATCH[1]}"
+              if [[ -n "${my_urls[$id]}" ]]; then
+                echo "${my_urls[$id]}" >> "$MERGED"
+              fi
+            fi
+          done < "$TMP"
+
+          mv "$MERGED" "$OUT"
+          echo "Merged file saved to $OUT"
+
+      - name: Commit & push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add an/ds.png
-          
-          # 如果文件没变化，直接打印提示，不报错
+          git add an/ds.png an/backups || true
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No changes to commit."
           else
-            # 尝试提交并 push，失败也不会让 workflow fail
-            git commit -m "Update ds.png" || echo "Commit failed, probably no changes"
-            git push || echo "Push failed, maybe no permission or conflict"
-          fi
+            git commit -m "Auto-update ds.png (merge my source)"
+            git push || echo "Push failed."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
