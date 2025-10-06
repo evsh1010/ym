@@ -1,4 +1,4 @@
-name: Update ds.png (merge with my source, final stable)
+name: Update ds.png (merge with my source, ultra stable)
 
 on:
   schedule:
@@ -17,11 +17,13 @@ jobs:
 
       - name: Prepare directories
         run: |
+          set +e
           mkdir -p an/backups
 
       - name: Download big source (non-fatal)
         shell: bash
         run: |
+          set +e
           TMP="an/fy.tmp"
           URL="https://fy.188766.xyz/all.xml.gz"
           echo "Downloading $URL ..."
@@ -44,7 +46,7 @@ jobs:
 
           # 第一次备份
           if [ ! -f "${BACKUP_DIR}/ds.png.first.bak" ] && [ -f "$OUT" ]; then
-            cp "$OUT" "${BACKUP_DIR}/ds.png.first.bak"
+            cp "$OUT" "${BACKUP_DIR}/ds.png.first.bak" || true
             echo "First backup created: ${BACKUP_DIR}/ds.png.first.bak"
           fi
 
@@ -60,28 +62,27 @@ jobs:
           MY_TEMP="an/my_source.tmp"
           > "$MY_TEMP"
           if [ -f "$MY_SRC" ]; then
-            while read -r url; do
-              id=$(echo "$url" | sed -n 's/.*id=\([^&]*\).*/\1/p')
+            grep -E '^https?://' "$MY_SRC" | while read -r url; do
+              id=$(echo "$url" | sed -n 's/.*id=\([^&]*\).*/\1/p') || true
               if [ -n "$id" ]; then
                 echo "$id|$url" >> "$MY_TEMP"
               fi
-            done < <(grep -E '^https?://' "$MY_SRC") || true
+            done || true
           fi
 
           # 遍历大佬源并合并
           while IFS= read -r line; do
             echo "$line" >> "$MERGED"
-            id=$(echo "$line" | sed -n 's/.*id=\([^&]*\).*/\1/p')
+            id=$(echo "$line" | sed -n 's/.*id=\([^&]*\).*/\1/p') || true
             if [ -n "$id" ]; then
-              # 查找你源是否有相同 id
-              match=$(grep "^$id|" "$MY_TEMP" | cut -d'|' -f2-)
+              match=$(grep "^$id|" "$MY_TEMP" | cut -d'|' -f2- || true)
               if [ -n "$match" ]; then
                 echo "$match" >> "$MERGED"
               fi
             fi
           done < "$TMP"
 
-          mv "$MERGED" "$OUT"
+          mv "$MERGED" "$OUT" || true
           echo "Merged file saved to $OUT"
 
       - name: Commit & push
@@ -90,10 +91,10 @@ jobs:
           set +e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add an/ds.png an/backups
-          git diff --cached --quiet
-          if [ $? -ne 0 ]; then
-            git commit -m "Auto-update ds.png (merge my source)"
+          git add an/ds.png an/backups || true
+          git diff --cached --quiet || CHANGED=$?
+          if [ -n "$CHANGED" ]; then
+            git commit -m "Auto-update ds.png (merge my source)" || true
             git push || echo "Push failed."
           else
             echo "No changes to commit."
