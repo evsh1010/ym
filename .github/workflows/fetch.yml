@@ -1,4 +1,4 @@
-name: Update ds.png (merge with my source, ultra stable)
+name: Update ds.png (minimal stable)
 
 on:
   schedule:
@@ -12,18 +12,16 @@ jobs:
   fetch-and-merge:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v3
 
       - name: Prepare directories
         run: |
-          set +e
-          mkdir -p an/backups
+          mkdir -p an/backups || true
 
-      - name: Download big source (non-fatal)
+      - name: Download big source (ignore errors)
         shell: bash
         run: |
-          set +e
           TMP="an/fy.tmp"
           URL="https://fy.188766.xyz/all.xml.gz"
           echo "Downloading $URL ..."
@@ -39,7 +37,6 @@ jobs:
       - name: Merge with my source
         shell: bash
         run: |
-          set +e
           OUT="an/ds.png"
           MY_SRC="an/ds.png"
           BACKUP_DIR="an/backups"
@@ -58,7 +55,7 @@ jobs:
           MERGED="an/ds.tmp"
           > "$MERGED"
 
-          # 将你自己的源存到临时文件里：格式 id|URL
+          # 将你自己的源存到临时文件里：id|URL
           MY_TEMP="an/my_source.tmp"
           > "$MY_TEMP"
           if [ -f "$MY_SRC" ]; then
@@ -88,7 +85,6 @@ jobs:
       - name: Commit & push
         shell: bash
         run: |
-          set +e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add an/ds.png an/backups || true
