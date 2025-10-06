@@ -1,33 +1,45 @@
-name: Fetch IPTV Source (bc.png)
+name: 更新bc文件
 
 on:
   schedule:
-    - cron: '0 0 * * *'    # 每天 UTC 0 点运行
-  workflow_dispatch:        # 支持手动触发
+    - cron: '0 0 * * *'     # 每天 UTC 0 点运行（北京时间早上 8 点）
+  workflow_dispatch:         # 支持手动运行
 
 permissions:
   contents: write
 
 jobs:
-  fetch-source:
+  update-bc:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: 检出仓库
         uses: actions/checkout@v3
 
-      - name: Create folder
+      - name: 创建目录
         run: mkdir -p an
 
-      - name: Download IPTV source
+      - name: 下载 IPTV 源
         run: |
-          curl -L "${{ secrets.BINGCHA_URL }}" -o an/bc.png
+          echo "正在从订阅源下载..."
+          curl -L --fail "${{ secrets.BINGCHA_URL }}" -o an/bc.png || exit 1
+          echo "检查文件大小..."
+          if [ ! -s an/bc.png ]; then
+            echo "⚠️ 下载失败或文件为空，跳过提交。"
+            rm -f an/bc.png
+            exit 0
+          fi
+          echo "✅ 下载成功，准备提交更新。"
 
-      - name: Commit and push changes
+      - name: 提交并推送更新
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add an/bc.png
-          git commit -m "Auto update bc.png from remote source" || echo "No changes to commit"
-          git push
+          if git diff --cached --quiet; then
+            echo "文件未变化，无需提交。"
+          else
+            git commit -m "自动更新 bc 文件"
+            git push
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
