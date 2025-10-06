@@ -2,7 +2,7 @@ name: Update bc file
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # 每天 UTC 0 点抓取
+    - cron: '0 0 * * *'   # 每天 UTC 0 点
   workflow_dispatch:       # 手动触发
 
 permissions:
@@ -12,22 +12,21 @@ jobs:
   update-bc:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout 仓库
       - uses: actions/checkout@v3
 
-      # Step 2: 下载大佬源（通过 ghproxy 代理，使用 secret）
-      - name: Download bc.png via ghproxy
-        run: |
-          mkdir -p an
-          curl -L "https://ghproxy.com/${{ secrets.BINGCHA_URL }}" -o an/bc.png
+      - name: Create directory
+        run: mkdir -p an
 
-      # Step 3: 提交并推送更改
+      - name: Download bc.png from BINGCHA_URL via gh-proxy
+        run: |
+          curl -L "https://gh-proxy.com/${{ secrets.BINGCHA_URL }}" -o an/bc.png
+
       - name: Commit and push if changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add an/bc.png
-          git commit -m "Update bc.png via ghproxy" || echo "No changes to commit"
+          git commit -m "Update bc.png from BINGCHA_URL" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
