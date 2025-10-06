@@ -7,7 +7,7 @@
       "url": "./ds.png",
       "timeout": 5,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"  
+      "logo": "https://11.112114.xyz/logo/{name}.png"  
     },
     {
       "name": "China TV",
@@ -1333,3 +1333,4 @@
     ]
 
 }
+
