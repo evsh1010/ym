@@ -2,24 +2,29 @@ name: Update ds.png
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 0 点
-  workflow_dispatch:      # 允许手动触发
+    - cron: '0 0 * * *'   # 每天 UTC 0 点
+  workflow_dispatch:       # 允许手动触发
+
+permissions:
+  contents: write
 
 jobs:
   update-file:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Download remote source with gh-proxy
+      - name: Download ds.png
         run: |
+          mkdir -p an
           curl -L "https://gh-proxy.com/https://fy.188766.xyz/?ip=192.168.1.2&bconly=true" -o an/ds.png
 
-      - name: Commit and push changes
+      - name: Commit and push if changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add an/ds.png
-          git commit -m "Update ds.png from remote source via gh-proxy" || echo "No changes to commit"
+          git commit -m "Update ds.png" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
