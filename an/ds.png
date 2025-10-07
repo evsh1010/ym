@@ -31,24 +31,18 @@ CCTV14少儿,http://66.90.99.154:8278/cctv14/playlist.m3u8?tid=MF2F4300018343000
 
 
 🇨🇳 央 视,#genre#
-CCTV1,http://112.27.235.94:8000/hls/1/index.m3u8#http://60.16.0.216:5757/hls/1/index.m3u8
-CCTV2,http://112.27.235.94:8000/hls/2/index.m3u8#http://60.16.0.216:5757/hls/2/index.m3u8
-CCTV3,http://112.27.235.94:8000/hls/3/index.m3u8#http://60.16.0.216:5757/hls/3/index.m3u8
-CCTV4,http://112.27.235.94:8000/hls/4/index.m3u8#http://60.16.0.216:5757/hls/4/index.m3u8
-CCTV5,http://112.27.235.94:8000/hls/5/index.m3u8#http://60.16.0.216:5757/hls/5/index.m3u8
-CCTV5+,http://112.27.235.94:8000/hls/6/index.m3u8#http://60.16.0.216:5757/hls/6/index.m3u8
-CCTV6,http://112.27.235.94:8000/hls/7/index.m3u8#http://60.16.0.216:5757/hls/7/index.m3u8
-CCTV7,http://112.27.235.94:8000/hls/8/index.m3u8#http://60.16.0.216:5757/hls/8/index.m3u8
-CCTV8,http://112.27.235.94:8000/hls/9/index.m3u8#http://60.16.0.216:5757/hls/9/index.m3u8
-CCTV9,http://112.27.235.94:8000/hls/10/index.m3u8#http://60.16.0.216:5757/hls/10/index.m3u8
-CCTV10,http://112.27.235.94:8000/hls/11/index.m3u8#http://60.16.0.216:5757/hls/11/index.m3u8
-CCTV11,http://112.27.235.94:8000/hls/12/index.m3u8#http://60.16.0.216:5757/hls/12/index.m3u8
-CCTV12,http://112.27.235.94:8000/hls/13/index.m3u8#http://60.16.0.216:5757/hls/13/index.m3u8
-CCTV13,http://112.27.235.94:8000/hls/14/index.m3u8#http://60.16.0.216:5757/hls/14/index.m3u8
-CCTV14,http://112.27.235.94:8000/hls/15/index.m3u8#http://60.16.0.216:5757/hls/15/index.m3u8
-CCTV15,http://112.27.235.94:8000/hls/16/index.m3u8
+CCTV3,http://66.90.99.154:8278/cctv3/playlist.m3u8?tid=MD7D8847534188475341&ct=20368&tsum=b9d1bd5572d53e1931bb5ceade3b10a9
+CCTV3,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzIyMi44NS4xOTguOTI6ODAwMC9obHMvMy9pbmRleC5tM3U4
+CCTV3,https://stream1.freetv.fun/5eaa9c7ead29b68c84c8e9545e749906bc849958dea10d4c6d2ebfd5ae28799f.m3u8
+CCTV3,https://stream1.freetv.fun/c50fdff43b47739107159b5e23f33d5bfcefc40042e648e6d263ff3f952208e6.m3u8
 
 
+
+CCTV5,http://66.90.99.154:8278/cctv5/playlist.m3u8?tid=MEFE6824951168249511&ct=20368&tsum=c0c7ba10c196e8cf190e0d6d179b6671
+CCTV5,https://stream1.freetv.fun/5c16c8c12828b64b2d477b436309d6af8208990ff623747dda525d3d5ab25905.m3u8
+CCTV5,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzguMTM4LjI1MC4xMjM6ODg4OC9lZGdlLWNhY2hlMDIubGl2ZTMub21kLnNjOTY2NTUuY29tL2xpdmUvQ0NUVi01SDI2NV80MDAwLm0zdTg=
+CCTV5+,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE4My4yNDkuNzguNDQ6MTA4MDAvbmV3bGl2ZS9saXZlL2hscy8xNy9saXZlLm0zdTg=
+CCTV5+,http://66.90.99.154:8278/cctv5plus/playlist.m3u8?tid=MCAC9700622597006225&ct=20368&tsum=96116d1aa6ee9910c037324cbee1e506
 
 CCTV2,http://8.138.7.223/tv/cctv2.php
 CCTV2@央视网财经抖音直播,video://https://webcast.amemv.com/douyin/webcast/reflow/7548061013439318838?sec_user_id=MS4wLjABAAAAzrRqzBM_qqg3Q9h-IxA1MQSimf8ZgoLlw7f1r2NIvvo
@@ -71,7 +65,9 @@ CGTN记录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://englis
 安徽影视,https://stream1.freetv.fun/an-hui-ying-shi-14.m3u8
 安徽影视,https://stream1.freetv.fun/8d9fb9f7088f6bc05408016d5ea0fe419bf2389c24fe343598fb1c02b3d5150c.m3u8
 
-
+东方卫视,http://66.90.99.154:8278/dongfangweishi_twn/playlist.m3u8?tid=MA0A9349609393496093&ct=20368&tsum=f06cb77dfa26551a3bddc55e1e2f77af
+东方卫视,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzExMS44LjIyNC42OjQwOTUvdHNmaWxlL2xpdmUvMTA2Nl8xLm0zdTg=
+东方卫视,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzguMTM4LjI1MC4xMjM6ODg4OC9lZGdlLWNhY2hlMDIubGl2ZTMub21kLnNjOTY2NTUuY29tL2xpdmUvZGZ3c0gyNjVfNDAwMC5tM3U4
 
 
 广东卫视,http://xxwx.yoesun.com/xxw/卫视4K.php?id=gd4k
