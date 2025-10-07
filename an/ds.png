@@ -31,11 +31,11 @@ CCTV12,http://112.27.235.94:8000/hls/13/index.m3u8
 CCTV13,http://112.27.235.94:8000/hls/14/index.m3u8
 CCTV14,http://112.27.235.94:8000/hls/15/index.m3u8
 CCTV15,http://112.27.235.94:8000/hls/16/index.m3u8
-CCTV16,http://112.27.235.94:8000/hls/24/index.m3u8
-CCTV17,http://112.27.235.94:8000/hls/25/index.m3u8
-的CCTV18,http://112.27.235.94:8000/hls/26/index.m3u8
-的CCTV19,http://112.27.235.94:8000/hls/22/index.m3u8
-的CCTV20,http://112.27.235.94:8000/hls/23/index.m3u8
+安徽卫视,http://112.27.235.94:8000/hls/26/index.m3u8
+安徽影视,http://112.27.235.94:8000/hls/24/index.m3u8
+安徽综艺体育,http://112.27.235.94:8000/hls/25/index.m3u8
+安徽经济生活,http://112.27.235.94:8000/hls/22/index.m3u8
+安徽公共,http://112.27.235.94:8000/hls/23/index.m3u8
 
 
 
