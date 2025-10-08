@@ -17,7 +17,6 @@ CCTV14少儿,http://66.90.99.154:8278/cctv14/playlist.m3u8?tid=MF2F4300018343000
 淘BABY,http://ydl.yueyaoxian.top:8686/rtp/239.3.1.238:8001
 龙华卡通,https://cdn8.163189.xyz/live/lhkt/stream.m3u8
 动物星球,http://66.90.99.154:8278/animalplanet_twn/playlist.m3u8?tid=MA8A8778594987785949&ct=20368&tsum=c0911d82d83d22eaad60570e5707ce57
-动物星球,https://stream1.freetv.fun/dong-wu-xing-qiu-4.m3u8
 奇光动漫,https://live.ottiptv.cc/douyu/12560807
 海绵宝宝,https://live.ottiptv.cc/douyu/3949681
 喜羊羊与灰太狼,https://live.ottiptv.cc/huya/23865080
@@ -101,6 +100,15 @@ CGTN记录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://englis
 江西卫视,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzguMTM4LjI1MC4xMjM6ODg4OC9lZGdlLWNhY2hlMDIubGl2ZTMub21kLnNjOTY2NTUuY29tL2xpdmUvanh3c0gyNjVfNDAwMC5tM3U4
 湖北卫视,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE4My4yNDkuNzguNDQ6MTA4MDAvbmV3bGl2ZS9saXZlL2hscy8zOS9saXZlLm0zdTg=
 湖北卫视,http://66.90.99.154:8278/hubei/playlist.m3u8?tid=MBBB2817138628171386&ct=20369&tsum=d918d7b6a834cd5850548613eb9e9899
+天津卫视,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzguMTM4LjI1MC4xMjM6ODg4OC9lZGdlLWNhY2hlMDIubGl2ZTMub21kLnNjOTY2NTUuY29tL2xpdmUvdGp3c0gyNjVfNDAwMC5tM3U4
+东南卫视,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzguMTM4LjI1MC4xMjM6ODg4OC9lZGdlLWNhY2hlMDIubGl2ZTMub21kLnNjOTY2NTUuY29tL2xpdmUvZG53c2Zqd3NIMjY1XzQwMDAubTN1OA==
+海峡卫视,https://stream1.freetv.fun/6617cf82ead80b552e5a8e7a9cfe5f09410e7e954dc1ee1abdb48e5dd2c2b4d4.m3u8
+海峡卫视,https://stream1.freetv.fun/hai-xia-wei-shi-6.m3u8
+四川卫视,http://66.90.99.154:8278/sichuan_twn/playlist.m3u8?tid=MFBF2698486326984863&ct=20369&tsum=bd27f1993d28a3bf04b6221e852d5361
+四川卫视,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzguMTM4LjI1MC4xMjM6ODg4OC9lZGdlLWNhY2hlMDIubGl2ZTMub21kLnNjOTY2NTUuY29tL2xpdmUvc2N3c0gyNjVfNDAwMC5tM3U4
+广西卫视,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzguMTM4LjI1MC4xMjM6ODg4OC9lZGdlLWNhY2hlMDIubGl2ZTMub21kLnNjOTY2NTUuY29tL2xpdmUvZ3h3c180MDAwLm0zdTg=
+河南卫视,https://stream1.freetv.fun/ea842ab34e6da31e0eae5bd8be6c4b7d67f0b0c214efaca7ff2c5a1718f7fe55.m3u8
+贵州卫视,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE4My4yNDkuNzguNDQ6MTA4MDAvbmV3bGl2ZS9saXZlL2hscy8yNi9saXZlLm0zdTg=
 
 深圳卫视,video://https://www.sztv.com.cn/pindao/index.html?id=7867$深圳卫视官网
 浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
