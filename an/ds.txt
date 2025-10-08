@@ -108,41 +108,39 @@ CGTN记录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://englis
 河南卫视,https://stream1.freetv.fun/ea842ab34e6da31e0eae5bd8be6c4b7d67f0b0c214efaca7ff2c5a1718f7fe55.m3u8
 贵州卫视,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovLzE4My4yNDkuNzguNDQ6MTA4MDAvbmV3bGl2ZS9saXZlL2hscy8yNi9saXZlLm0zdTg=
 
-深圳卫视,video://https://www.sztv.com.cn/pindao/index.html?id=7867$深圳卫视官网
-浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 
+浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 江苏卫视,http://xxwx.yoesun.com/xxw/江苏网.php?id=jsws
 北京卫视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjws
 东方卫视,http://cdn.jdshipin.com/kkxw.php?id=1
-
-西藏卫视,http://xxwx.yoesun.com/xxw/西藏网.php?id=ws#http://php.jdshipin.com:8880/xztv.php?id=ws
-西藏卫视网页,video://http://tv.haoqu99.com/2/xizang.html$好趣网
-新疆卫视网页,video://https://www.xjtvs.com.cn/column/tv/434?channelId=1$新疆卫视官网
 海南卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
-兵团卫视,http://8.138.7.223/tv/btws.m3u8
-兵团卫视,https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
-兵团卫视,https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8$官网源
-兵团卫视网页,video://https://www.btzx.com.cn/2024new/new_zhibo/index.shtml$兵团卫视官网
 山西卫视,http://www.lwfz.fun:8800/udp/239.16.10.24:2000
-
-三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
-延边卫视,https://stream1.freetv.fun/ade72d8dfe39d7d08f1d24142c98d14674d000278d1bc660a01bcbc8cff22d86.m3u8
-延边卫视,https://stream1.freetv.fun/yan-bian-wei-shi-29.m3u8
 海峡卫视,https://stream1.freetv.fun/6617cf82ead80b552e5a8e7a9cfe5f09410e7e954dc1ee1abdb48e5dd2c2b4d4.m3u8
 海峡卫视,https://stream1.freetv.fun/hai-xia-wei-shi-6.m3u8
-河北卫视网页,video://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=0$河北卫视官网
-安徽卫视网页,video://https://www.ahtv.cn/folder9000/folder20193?channelIndex=0$安徽卫视官网
-
 山东教育卫视,http://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
+西藏卫视,http://xxwx.yoesun.com/xxw/西藏网.php?id=ws#http://php.jdshipin.com:8880/xztv.php?id=ws
+兵团卫视,http://8.138.7.223/tv/btws.m3u8
+兵团卫视,https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8$官网源
+延边卫视,https://stream1.freetv.fun/ade72d8dfe39d7d08f1d24142c98d14674d000278d1bc660a01bcbc8cff22d86.m3u8
+延边卫视,https://stream1.freetv.fun/yan-bian-wei-shi-29.m3u8
+三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
+
 浙江卫视网页,video://https://www.cztv.com/liveTV/101$浙江卫视官网
 江苏卫视网页,video://https://live.jstv.com/$江苏卫视官网
 东方卫视网页,video://https://live.kankanews.com/huikan?id=1$看看新闻网
+深圳卫视网页,video://https://www.sztv.com.cn/pindao/index.html?id=7867$深圳卫视官网
+安徽卫视网页,video://https://www.ahtv.cn/folder9000/folder20193?channelIndex=0$安徽卫视官网
+河北卫视网页,video://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=0$河北卫视官网
 山西卫视网页,video://https://www.sxrtv.com/tv/index.shtml$山西卫视官网
 广西卫视网页,rtmp://live.gxrb.com.cn/hls/a23
 贵州卫视网页,video://https://www.gzstv.com/tv/ch01$贵州卫视官网
 陕西卫视网页,video://http://live.snrtv.com/star$陕西卫视官网
 甘肃卫视网页,video://https://www.gstv.com.cn/zxc.jhtml$甘肃卫视官网
 内蒙古卫视网页,video://https://www.nmtv.cn/liveTv$内蒙古卫视官网
+西藏卫视网页,video://http://tv.haoqu99.com/2/xizang.html$好趣网
+新疆卫视网页,video://https://www.xjtvs.com.cn/column/tv/434?channelId=1$新疆卫视官网
+兵团卫视网页,video://https://www.btzx.com.cn/2024new/new_zhibo/index.shtml$兵团卫视官网
+
 
 
 💫 电 影,#genre#
