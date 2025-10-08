@@ -139,7 +139,7 @@ CGTN记录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://englis
 东方卫视网页,video://https://live.kankanews.com/huikan?id=1$看看新闻网
 山西卫视网页,video://https://www.sxrtv.com/tv/index.shtml$山西卫视官网
 广西卫视网页,rtmp://live.gxrb.com.cn/hls/a23
-的贵州卫视网页,video://https://www.gzstv.com/tv/ch01$贵州卫视官网
+贵州卫视网页,video://https://www.gzstv.com/tv/ch01$贵州卫视官网
 陕西卫视网页,video://http://live.snrtv.com/star$陕西卫视官网
 甘肃卫视网页,video://https://www.gstv.com.cn/zxc.jhtml$甘肃卫视官网
 内蒙古卫视网页,video://https://www.nmtv.cn/liveTv$内蒙古卫视官网
