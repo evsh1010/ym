@@ -37,6 +37,13 @@
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://11.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "魔改",
+      "type": 0,
+      "url": "http://rihou.cc:567/gggg.nzk",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://11.112114.xyz/logo/{name}.png"
     }
   ],
   "sites": [
@@ -264,20 +271,6 @@
         "dataIv": "20c79c979da8db0f",
         "deviceId": "",
         "version": ""
-      }
-    },
-    {
-      "key": "白蛇",
-      "name": "白蛇｜APP",
-      "type": 3,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "",
-        "site": "http://tengxunyunaliyun.oss-cn-shanghai.aliyuncs.com/tengxunyun.txt",
-        "dataKey": "n3l2tx5jdkp9s2c8",
-        "dataIv": "n3l2tx5jdkp9s2c8",
-        "deviceId": "",
-        "version": "361"
       }
     },
     {
@@ -1333,4 +1326,5 @@
     ]
 
 }
+
 
