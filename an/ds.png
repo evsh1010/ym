@@ -27,16 +27,12 @@ CCTV7,https://httop.top/ysp-cctv7
 CCTV8,https://httop.top/ysp-cctv8
 CCTV9,https://httop.top/ysp-cctv9
 CCTV10,https://httop.top/ysp-cctv10
-CCTV13,https://httop.top/ysp-cctv13
-CGTN,https://httop.top/ysp-cgtn
 
 CCTV1,http://m.061899.xyz/mg/cctv1
 CCTV2,http://8.138.7.223/tv/cctv2.php
 CCTV2,http://m.061899.xyz/mg/cctv2
 CCTV3,http://m.061899.xyz/mg/cctv3
 CCTV4,http://m.061899.xyz/mg/cctv4
-CCTV4欧洲,http://m.061899.xyz/mg/cctv4o
-CCTV4美洲,http://m.061899.xyz/mg/cctv4m
 CCTV5,http://m.061899.xyz/mg/cctv5
 CCTV5+,http://m.061899.xyz/mg/cctv5p
 CCTV6,http://m.061899.xyz/mg/cctv6
@@ -46,6 +42,7 @@ CCTV9,http://m.061899.xyz/mg/cctv9
 CCTV10,http://m.061899.xyz/mg/cctv10
 CCTV11,http://m.061899.xyz/mg/cctv11
 CCTV12,http://m.061899.xyz/mg/cctv12
+CCTV13,https://httop.top/ysp-cctv13
 CCTV13,http://101.200.77.82:35455/bilibili/22142427
 CCTV13,http://m.061899.xyz/mg/cctv13
 CCTV14,http://m.061899.xyz/mg/cctv14
@@ -53,6 +50,9 @@ CCTV15,http://m.061899.xyz/mg/cctv15
 CCTV16,http://ayocndali.v.myalicdn.com/ayocnd/4kcctv16_2td.m3u8?auth_key=1787639628-0-0-5bbc9f8b3e3d138d7134a61cfec367eb
 CCTV16,http://m.061899.xyz/mg/cctv16
 CCTV17,http://m.061899.xyz/mg/cctv17
+CCTV4欧洲,http://m.061899.xyz/mg/cctv4o
+CCTV4美洲,http://m.061899.xyz/mg/cctv4m
+CGTN,https://httop.top/ysp-cgtn
 CGTN,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 CGTN,http://m.061899.xyz/mg/cgtn
 CGTN记录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
@@ -80,6 +80,7 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 湖北卫视,https://httop.top/ysp-湖北卫视
 海南卫视,https://httop.top/ysp-海南卫视
 东南卫视,https://httop.top/ysp-东南卫视
+海峡卫视,http://8.138.7.223/tv/hxws.m3u8
 天津卫视,https://httop.top/ysp-天津卫视
 重庆卫视,https://httop.top/ysp-重庆卫视
 云南卫视,https://httop.top/ysp-云南卫视
@@ -119,7 +120,6 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 海南卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
 东南卫视,http://m.061899.xyz/mg/dnws
 海峡卫视,http://m.061899.xyz/mg/hxws
-海峡卫视,http://8.138.7.223/tv/hxws.m3u8
 天津卫视,http://m.061899.xyz/mg/tjws
 重庆卫视,http://m.061899.xyz/mg/cqws
 云南卫视,http://m.061899.xyz/mg/ynws
