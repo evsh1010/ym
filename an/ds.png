@@ -27,9 +27,32 @@ CCTV7,https://httop.top/ysp-cctv7
 CCTV8,https://httop.top/ysp-cctv8
 CCTV9,https://httop.top/ysp-cctv9
 CCTV10,https://httop.top/ysp-cctv10
+CCTV11, https://14.130519.xyz/PLTV/11/224/3221226101/index.m3u8
+CCTV12, https://11.130519.xyz/PLTV/11/224/3221226103/index.m3u8
+CCTV13,https://httop.top/ysp-cctv13
+CCTV14, https://17.130519.xyz/PLTV/11/224/3221225738/index.m3u8
+CCTV15, https://15.130519.xyz/PLTV/11/224/3221226147/index.m3u8
+
+CCTV2,http://8.138.7.223/tv/cctv2.php
+CCTV13,http://101.200.77.82:35455/bilibili/22142427
+CCTV16,http://ayocndali.v.myalicdn.com/ayocnd/4kcctv16_2td.m3u8?auth_key=1787639628-0-0-5bbc9f8b3e3d138d7134a61cfec367eb
+CGTN,https://httop.top/ysp-cgtn
+CGTN,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
+CGTN记录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
+
+CCTV1, https://16.130519.xyz/PLTV/11/224/3221225723/index.m3u8
+CCTV2, https://40.130519.xyz/PLTV/11/224/3221226122/index.m3u8
+CCTV3, https://18.130519.xyz/PLTV/11/224/3221225766/index.m3u8
+CCTV4, https://15.130519.xyz/PLTV/11/224/3221226124/index.m3u8
+CCTV5, https://43.130519.xyz/PLTV/11/224/3221225734/index.m3u8
+CCTV6, https://18.130519.xyz/PLTV/11/224/3221225741/index.m3u8
+CCTV7, https://10.130519.xyz/PLTV/11/224/3221225701/index.m3u8
+CCTV8, https://14.130519.xyz/PLTV/11/224/3221225736/index.m3u8
+CCTV10, https://18.130519.xyz/PLTV/11/224/3221225743/index.m3u8
+CCTV13, https://15.130519.xyz/PLTV/11/224/3221226128/index.m3u8
+CCTV16, https://17.130519.xyz/PLTV/11/224/3221226120/index.m3u8
 
 CCTV1,http://m.061899.xyz/mg/cctv1
-CCTV2,http://8.138.7.223/tv/cctv2.php
 CCTV2,http://m.061899.xyz/mg/cctv2
 CCTV3,http://m.061899.xyz/mg/cctv3
 CCTV4,http://m.061899.xyz/mg/cctv4
@@ -42,20 +65,14 @@ CCTV9,http://m.061899.xyz/mg/cctv9
 CCTV10,http://m.061899.xyz/mg/cctv10
 CCTV11,http://m.061899.xyz/mg/cctv11
 CCTV12,http://m.061899.xyz/mg/cctv12
-CCTV13,https://httop.top/ysp-cctv13
-CCTV13,http://101.200.77.82:35455/bilibili/22142427
 CCTV13,http://m.061899.xyz/mg/cctv13
 CCTV14,http://m.061899.xyz/mg/cctv14
 CCTV15,http://m.061899.xyz/mg/cctv15
-CCTV16,http://ayocndali.v.myalicdn.com/ayocnd/4kcctv16_2td.m3u8?auth_key=1787639628-0-0-5bbc9f8b3e3d138d7134a61cfec367eb
 CCTV16,http://m.061899.xyz/mg/cctv16
 CCTV17,http://m.061899.xyz/mg/cctv17
 CCTV4欧洲,http://m.061899.xyz/mg/cctv4o
 CCTV4美洲,http://m.061899.xyz/mg/cctv4m
-CGTN,https://httop.top/ysp-cgtn
-CGTN,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 CGTN,http://m.061899.xyz/mg/cgtn
-CGTN记录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 CGTN记录,http://m.061899.xyz/mg/cgtnjl
 
 CCTV2@央视网财经抖音直播,video://https://webcast.amemv.com/douyin/webcast/reflow/7548061013439318838?sec_user_id=MS4wLjABAAAAzrRqzBM_qqg3Q9h-IxA1MQSimf8ZgoLlw7f1r2NIvvo
@@ -66,16 +83,32 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 
 
 🔴 卫 视,#genre#
+北京卫视,https://itv.809899.xyz/4k.php?id=btv4k
+东方卫视,https://itv.809899.xyz/4k.php?id=sh4k
+江苏卫视,https://itv.809899.xyz/4k.php?id=js4k
+浙江卫视,https://itv.809899.xyz/4k.php?id=zj4k
+湖南卫视,https://itv.809899.xyz/4k.php?id=hn4k
+广东卫视,https://itv.809899.xyz/4k.php?id=gd4k
+深圳卫视,https://itv.809899.xyz/4k.php?id=sz4k
+四川卫视,https://itv.809899.xyz/4k.php?id=sc4k
+山东卫视,https://itv.809899.xyz/4k.php?id=sd4k
+浙江卫视,https://play-qukan.cztv.com/live/1758879019692345.m3u8
+湖南卫视,http://106.53.99.30/tv/api.php?id=hnws4k
+
 北京卫视,https://httop.top/ysp-北京卫视
+北京影视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjys
 东方卫视,https://httop.top/ysp-东方卫视
 江苏卫视,https://httop.top/ysp-江苏卫视
+苏州电影娱乐,https://live-auth.51kandianshi.com/szgd/csztv4.m3u8
 浙江卫视,https://httop.top/ysp-浙江卫视
+浙江教科影视,https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
 湖南卫视,https://httop.top/ysp-湖南卫视
 广东卫视,https://httop.top/ysp-广东卫视
 深圳卫视,https://httop.top/ysp-深圳卫视
 四川卫视,https://httop.top/ysp-四川卫视
 山东卫视,https://httop.top/ysp-山东卫视
 安徽卫视,https://httop.top/ysp-安徽卫视
+安徽影视,https://ahlive.ahwanyun.cn/live/8534e69a9af14e41a362bcef71d7896f/hls.m3u8
 江西卫视,https://httop.top/ysp-江西卫视
 湖北卫视,https://httop.top/ysp-湖北卫视
 海南卫视,https://httop.top/ysp-海南卫视
@@ -84,6 +117,7 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 天津卫视,https://httop.top/ysp-天津卫视
 重庆卫视,https://httop.top/ysp-重庆卫视
 云南卫视,https://httop.top/ysp-云南卫视
+云南影视频道,https://hwapi.yntv.net/62hdvf/utrat7.m3u8
 贵州卫视,https://httop.top/ysp-贵州卫视
 河南卫视,https://httop.top/ysp-河南卫视
 河北卫视,https://httop.top/ysp-河北卫视
@@ -91,6 +125,7 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 吉林卫视,https://httop.top/ysp-吉林卫视
 黑龙江卫视,https://httop.top/ysp-黑龙江卫视
 广西卫视,https://httop.top/ysp-广西卫视
+南宁影视,http://hls.nntv.cn/nnlive/YSYL_244.m3u8
 山西卫视,https://httop.top/ysp-山西卫视
 陕西卫视,https://httop.top/ysp-陕西卫视
 宁夏卫视,https://httop.top/ysp-宁夏卫视
@@ -100,15 +135,50 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 新疆卫视,https://httop.top/ysp-新疆卫视
 兵团卫视,https://httop.top/ysp-兵团卫视
 西藏卫视,http://php.jdshipin.com:8880/xztv.php?id=ws#http://xxwx.yoesun.com/xxw/西藏网.php?id=ws
+西藏影视文化,http://xxwx.yoesun.com/xxw/西藏网.php?id=ys#http://php.jdshipin.com:8880/xztv.php?id=ys
 
-北京卫视,http://m.061899.xyz/mg/bjws
+北京卫视, https://42.130519.xyz/PLTV/11/224/3221225724/index.m3u8
+东方卫视, https://10.130519.xyz/PLTV/11/224/3221225725/index.m3u8
+江苏卫视, https://16.130519.xyz/PLTV/11/224/3221225720/index.m3u8
+浙江卫视, https://10.130519.xyz/PLTV/11/224/3221225727/index.m3u8
+湖南卫视, https://42.130519.xyz/PLTV/11/224/3221225726/index.m3u8
+广东卫视, https://44.130519.xyz/PLTV/11/224/3221225731/index.m3u8
+四川卫视, https://41.130519.xyz/PLTV/11/224/3221226152/index.m3u8
+山东卫视, https://42.130519.xyz/PLTV/11/224/3221225733/index.m3u8
+安徽卫视, https://18.130519.xyz/PLTV/11/224/3221225739/index.m3u8
+江西卫视, https://12.130519.xyz/PLTV/11/224/3221225740/index.m3u8
+湖北卫视, https://10.130519.xyz/PLTV/11/224/3221225729/index.m3u8
+海南卫视, https://18.130519.xyz/PLTV/11/224/3221226154/index.m3u8
+东南卫视, https://10.130519.xyz/PLTV/11/224/3221225745/index.m3u8
+天津卫视, https://12.130519.xyz/PLTV/11/224/3221225742/index.m3u8
+重庆卫视, https://19.130519.xyz/PLTV/11/224/3221226171/index.m3u8
+云南卫视, https://14.130519.xyz/PLTV/11/224/3221226109/index.m3u8
+贵州卫视, https://15.130519.xyz/PLTV/11/224/3221226173/index.m3u8
+河南卫视, https://19.130519.xyz/PLTV/11/224/3221226132/index.m3u8
+河北卫视, https://11.130519.xyz/PLTV/11/224/3221226107/index.m3u8
+吉林卫视, https://14.130519.xyz/PLTV/11/224/3221226082/index.m3u8
+黑龙江卫视, https://10.130519.xyz/PLTV/11/224/3221225747/index.m3u8
+广西卫视, https://14.130519.xyz/PLTV/11/224/3221226084/index.m3u8
+山西卫视, https://11.130519.xyz/PLTV/11/224/3221226113/index.m3u8
+甘肃卫视, https://11.130519.xyz/PLTV/11/224/3221226090/index.m3u8
+
 北京卫视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjws
 东方卫视,http://cdn.jdshipin.com/kkxw.php?id=1
+江苏卫视,http://xxwx.yoesun.com/xxw/江苏网.php?id=jsws
+浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
+海南卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
+山西卫视,http://www.lwfz.fun:8800/udp/239.16.10.24:2000
+兵团卫视,http://8.138.7.223/tv/btws.m3u8
+兵团卫视,https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8$官网源
+延边卫视,https://stream1.freetv.fun/ade72d8dfe39d7d08f1d24142c98d14674d000278d1bc660a01bcbc8cff22d86.m3u8
+延边卫视,https://stream1.freetv.fun/yan-bian-wei-shi-29.m3u8
+三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
+山东教育卫视,http://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
+
+北京卫视,http://m.061899.xyz/mg/bjws
 东方卫视,http://m.061899.xyz/mg/dfws
 江苏卫视,http://m.061899.xyz/mg/jsws
-江苏卫视,http://xxwx.yoesun.com/xxw/江苏网.php?id=jsws
 浙江卫视,http://m.061899.xyz/mg/zjws
-浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 湖南卫视,http://m.061899.xyz/mg/hunws
 广东卫视,http://m.061899.xyz/mg/gdws
 深圳卫视,http://m.061899.xyz/mg/szws
@@ -118,7 +188,6 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 江西卫视,http://m.061899.xyz/mg/jxws
 湖北卫视,http://m.061899.xyz/mg/hubws
 海南卫视,http://m.061899.xyz/mg/hinws
-海南卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
 东南卫视,http://m.061899.xyz/mg/dnws
 海峡卫视,http://m.061899.xyz/mg/hxws
 天津卫视,http://m.061899.xyz/mg/tjws
@@ -132,21 +201,14 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 黑龙江卫视,http://m.061899.xyz/mg/hljws
 广西卫视,http://m.061899.xyz/mg/gxws
 山西卫视,http://m.061899.xyz/mg/sxiws
-山西卫视,http://www.lwfz.fun:8800/udp/239.16.10.24:2000
 陕西卫视,http://m.061899.xyz/mg/sxws
 宁夏卫视,http://m.061899.xyz/mg/nxws
 甘肃卫视,http://m.061899.xyz/mg/gsws
 青海卫视,http://m.061899.xyz/mg/qhws
 内蒙古卫视,http://m.061899.xyz/mg/nmgws
 新疆卫视,http://m.061899.xyz/mg/xjws
-兵团卫视,http://8.138.7.223/tv/btws.m3u8
-兵团卫视,https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8$官网源
 兵团卫视,http://m.061899.xyz/mg/btws
 西藏卫视,http://m.061899.xyz/mg/xzws
-延边卫视,https://stream1.freetv.fun/ade72d8dfe39d7d08f1d24142c98d14674d000278d1bc660a01bcbc8cff22d86.m3u8
-延边卫视,https://stream1.freetv.fun/yan-bian-wei-shi-29.m3u8
-三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
-山东教育卫视,http://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
 CETV1,http://m.061899.xyz/mg/cetv1
 CETV2,http://m.061899.xyz/mg/cetv2
 CETV4,http://m.061899.xyz/mg/cetv4
@@ -167,6 +229,8 @@ CHC影迷电影,http://m.061899.xyz/mg/ymdy
 江苏卫视网页,video://https://live.jstv.com/$江苏卫视官网
 东方卫视网页,video://https://live.kankanews.com/huikan?id=1$看看新闻网
 深圳卫视网页,video://https://www.sztv.com.cn/pindao/index.html?id=7867$深圳卫视官网
+深圳电视剧网页,video://https://www.sztv.com.cn/dianshi.shtml?id=7880$深圳卫视官网
+深圳少儿网页,video://https://www.sztv.com.cn/dianshi.shtml?id=7881$深圳卫视官网
 安徽卫视网页,video://https://www.ahtv.cn/folder9000/folder20193?channelIndex=0$安徽卫视官网
 河北卫视网页,video://https://www.hebtv.com/19/19js/st/xdszb/index.shtml?index=0$河北卫视官网
 山西卫视网页,video://https://www.sxrtv.com/tv/index.shtml$山西卫视官网
@@ -185,16 +249,18 @@ CHC影迷电影,http://m.061899.xyz/mg/ymdy
 阿七点歌台,https://live.ottiptv.cc/douyu/3186217
 相声小品,http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c59_fast_1044_1080P_t10/c59_fast_1044_1080P_t10.m3u8?d
 相声小品,http://106.53.99.30/tv/gitv.php?id=0015
+
 西游记,https://live.ottiptv.cc/douyu/3113309
 三国演义,https://live.ottiptv.cc/douyu/7459925
 新三国,https://live.ottiptv.cc/douyu/5908256
+邵氏影视,http://lxajh.top/tv/douyu.php?id=4246519
+
 抗战剧场,http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c54_fast_884_1080P_t10/c54_fast_884_1080P_t10.m3u8?d
 抗战剧场,http://106.53.99.30/tv/gitv.php?id=0007
 谍战剧场,http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c57_fast_882_1080P_t10/c57_fast_882_1080P_t10.m3u8?d
 谍战剧场,http://106.53.99.30/tv/gitv.php?id=0008
 乡村生活,http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c59_fast_1050_1080P_t10/c59_fast_1050_1080P_t10.m3u8?d
 乡村生活,http://106.53.99.30/tv/gitv.php?id=0011
-邵氏影视,http://lxajh.top/tv/douyu.php?id=4246519
 
 淘电影,http://ydl.yueyaoxian.top:8686/rtp/239.3.1.250:8001
 淘剧场,http://ydl.yueyaoxian.top:8686/rtp/239.3.1.95:8001
@@ -206,16 +272,6 @@ CHC影迷电影,http://168250.xyz:1111/rtp/239.5.1.51:5000
 重温经典,http://8.138.7.223/tv/cwjd.php
 重温经典,http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
 重温经典,http://api.hk.itv888.cn:8080/hls/ba0e4e5dd67/index.m3u8
-
-北京影视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjys
-浙江教科影视,https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-苏州电影娱乐,https://live-auth.51kandianshi.com/szgd/csztv4.m3u8
-南宁影视,http://hls.nntv.cn/nnlive/YSYL_244.m3u8
-云南影视频道,https://hwapi.yntv.net/62hdvf/utrat7.m3u8
-湖南电影,http://php.jdshipin.com:8880/iptv.php?id=hndy
-湖南电视剧,http://php.jdshipin.com:8880/iptv.php?id=hndsj
-河南电视剧,http://xxwx.yoesun.com/xxw/河南网.php?id=hndsj
-西藏影视文化,http://xxwx.yoesun.com/xxw/西藏网.php?id=ys#http://php.jdshipin.com:8880/xztv.php?id=ys
 
 
 
