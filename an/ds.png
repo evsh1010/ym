@@ -28,11 +28,11 @@ CCTV7,https://httop.top/ysp-cctv7
 CCTV8,https://httop.top/ysp-cctv8
 CCTV9,https://httop.top/ysp-cctv9
 CCTV10,https://httop.top/ysp-cctv10
-CCTV11, https://14.130519.xyz/PLTV/11/224/3221226101/index.m3u8
-CCTV12, https://11.130519.xyz/PLTV/11/224/3221226103/index.m3u8
+CCTV11,https://14.130519.xyz/PLTV/11/224/3221226101/index.m3u8
+CCTV12,https://11.130519.xyz/PLTV/11/224/3221226103/index.m3u8
 CCTV13,https://httop.top/ysp-cctv13
-CCTV14, https://17.130519.xyz/PLTV/11/224/3221225738/index.m3u8
-CCTV15, https://15.130519.xyz/PLTV/11/224/3221226147/index.m3u8
+CCTV14,https://17.130519.xyz/PLTV/11/224/3221225738/index.m3u8
+CCTV15,https://15.130519.xyz/PLTV/11/224/3221226147/index.m3u8
 
 CCTV2,http://8.138.7.223/tv/cctv2.php
 CCTV13,http://101.200.77.82:35455/bilibili/22142427
@@ -42,17 +42,17 @@ CGTN,https://httop.top/ysp-cgtn
 CGTN,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 CGTN记录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 
-CCTV1, https://16.130519.xyz/PLTV/11/224/3221225723/index.m3u8
-CCTV2, https://40.130519.xyz/PLTV/11/224/3221226122/index.m3u8
-CCTV3, https://18.130519.xyz/PLTV/11/224/3221225766/index.m3u8
-CCTV4, https://15.130519.xyz/PLTV/11/224/3221226124/index.m3u8
-CCTV5, https://43.130519.xyz/PLTV/11/224/3221225734/index.m3u8
-CCTV6, https://18.130519.xyz/PLTV/11/224/3221225741/index.m3u8
-CCTV7, https://10.130519.xyz/PLTV/11/224/3221225701/index.m3u8
-CCTV8, https://14.130519.xyz/PLTV/11/224/3221225736/index.m3u8
-CCTV10, https://18.130519.xyz/PLTV/11/224/3221225743/index.m3u8
-CCTV13, https://15.130519.xyz/PLTV/11/224/3221226128/index.m3u8
-CCTV16, https://17.130519.xyz/PLTV/11/224/3221226120/index.m3u8
+CCTV1,https://16.130519.xyz/PLTV/11/224/3221225723/index.m3u8
+CCTV2,https://40.130519.xyz/PLTV/11/224/3221226122/index.m3u8
+CCTV3,https://18.130519.xyz/PLTV/11/224/3221225766/index.m3u8
+CCTV4,https://15.130519.xyz/PLTV/11/224/3221226124/index.m3u8
+CCTV5,https://43.130519.xyz/PLTV/11/224/3221225734/index.m3u8
+CCTV6,https://18.130519.xyz/PLTV/11/224/3221225741/index.m3u8
+CCTV7,https://10.130519.xyz/PLTV/11/224/3221225701/index.m3u8
+CCTV8,https://14.130519.xyz/PLTV/11/224/3221225736/index.m3u8
+CCTV10,https://18.130519.xyz/PLTV/11/224/3221225743/index.m3u8
+CCTV13,https://15.130519.xyz/PLTV/11/224/3221226128/index.m3u8
+CCTV16,https://17.130519.xyz/PLTV/11/224/3221226120/index.m3u8
 
 CCTV1,http://m.061899.xyz/mg/cctv1
 CCTV2,http://m.061899.xyz/mg/cctv2
@@ -111,6 +111,7 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 云南影视频道,https://hwapi.yntv.net/62hdvf/utrat7.m3u8
 贵州卫视,https://httop.top/ysp-贵州卫视
 河南卫视,https://httop.top/ysp-河南卫视
+河南电视剧,http://1.94.31.214/php/hntv.php?id=hndsjws
 河北卫视,https://httop.top/ysp-河北卫视
 辽宁卫视,https://httop.top/ysp-辽宁卫视
 吉林卫视,https://httop.top/ysp-吉林卫视
@@ -173,6 +174,7 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 江苏卫视,http://xxwx.yoesun.com/xxw/江苏网.php?id=jsws
 浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 海南卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
+河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 山西卫视,http://www.lwfz.fun:8800/udp/239.16.10.24:2000
 兵团卫视,http://8.138.7.223/tv/btws.m3u8
 兵团卫视,https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8$官网源
