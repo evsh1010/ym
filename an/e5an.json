@@ -21,6 +21,7 @@
       "name": "Mursor",
       "type": 0,
       "url": "https://live.ottiptv.cc/iptv.m3u?userid=7204807143&sign=9023ff92cff2336d62aac55b5cf28266574948b2384911dafc657185ccdf78cb284d28ad493df5063aea296cd042e689562ae5e8cd078d124631c8c647b7e0d24fc31ac7082a22&auth_token=769a3d271d6aa3f92b72bc0cecb9fe1b",
+      "ua": "okHttp/Mod-1.4.0.0",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "timeout": 10   
     },
@@ -1326,5 +1327,6 @@
     ]
 
 }
+
 
 
