@@ -14,9 +14,10 @@
       "name": "China TV",
       "type": 0,
       "url": "https://live.tv.darwinchow.com/sub/02RrCRiHkSxtoGaNBUg4GZnu2KXHBT/txt",
-      "timeout": 10,
+      "ua": "okHttp/Mod-1.4.0.0",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://11.112114.xyz/logo/{name}.png"  
+      "logo": "https://11.112114.xyz/logo/{name}.png",
+      "timeout": 5
     },
     {
       "name": "Mursor",
@@ -24,28 +25,34 @@
       "url": "https://live.ottiptv.cc/iptv.m3u?userid=7204807143&sign=9023ff92cff2336d62aac55b5cf28266574948b2384911dafc657185ccdf78cb284d28ad493df5063aea296cd042e689562ae5e8cd078d124631c8c647b7e0d24fc31ac7082a22&auth_token=769a3d271d6aa3f92b72bc0cecb9fe1b",
       "ua": "okHttp/Mod-1.4.0.0",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "timeout": 10   
+      "timeout": 5
     },
     {
       "name": "冰茶咪咕",
       "type": 0,
       "url": "https://fy.188766.xyz/?ip=192.168.1.2&bconly=true",
+      "ua": "okHttp/Mod-1.4.0.0",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://11.112114.xyz/logo/{name}.png"
+      "logo": "https://11.112114.xyz/logo/{name}.png",
+      "timeout": 5
     },
     {
       "name": "咪咕",
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "ua": "okHttp/Mod-1.4.0.0",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://11.112114.xyz/logo/{name}.png"
+      "logo": "https://11.112114.xyz/logo/{name}.png",
+      "timeout": 5
     },
     {
       "name": "魔改",
       "type": 0,
       "url": "http://rihou.cc:567/gggg.nzk",
+      "ua": "okHttp/Mod-1.4.0.0",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://11.112114.xyz/logo/{name}.png"
+      "logo": "https://11.112114.xyz/logo/{name}.png",
+      "timeout": 5
     }
   ],
   "sites": [
@@ -1328,6 +1335,7 @@
     ]
 
 }
+
 
 
 
