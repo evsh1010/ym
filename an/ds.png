@@ -1,3 +1,4 @@
+#EXTVLCOPT:http-user-agent=AptvPlayer-UA
 ✨ 少 儿 ,#genre#
 浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 内蒙古少儿,http://play1-qk.nmtv.cn/live/1686560464515368.m3u8
@@ -40,7 +41,6 @@ CGTN,https://httop.top/ysp-cgtn
 CGTN,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 CGTN记录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
 CCTV1,http://101.35.240.114:88/live.php?id=CCTV1
 CCTV2,http://148.135.93.213/live.php?id=CCTV2
 CCTV3,http://101.35.240.114:88/live.php?id=CCTV3
@@ -59,7 +59,6 @@ CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
 CCTV15,http://148.135.93.213/live.php?id=CCTV15
 CCTV16,http://101.35.240.114:88/live.php?id=CCTV16
 CCTV17,http://148.135.93.213/live.php?id=CCTV17
-#EXTVLCOPT:http-user-agent=
 
 CCTV1,http://m.061899.xyz/mg/cctv1
 CCTV2,http://m.061899.xyz/mg/cctv2
@@ -92,7 +91,6 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 
 
 🔴 卫 视,#genre#
-#EXTVLCOPT:http-user-agent=aliplayer
 北京卫视4K,http://101.35.240.114:88/live.php?id=北京卫视
 东方卫视4K,http://101.35.240.114:88/live.php?id=东方卫视4K
 江苏卫视4K,http://101.35.240.114:88/live.php?id=江苏卫视4K
@@ -102,7 +100,6 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 深圳卫视4K,http://101.35.240.114:88/live.php?id=深圳卫视
 山东卫视4K,http://101.35.240.114:88/live.php?id=山东卫视4K
 四川卫视4K,http://101.35.240.114:88/live.php?id=四川卫视4K
-#EXTVLCOPT:http-user-agent=
 
 浙江卫视4K,https://play-qukan.cztv.com/live/1758879019692345.m3u8
 浙江卫视4K,http://106.53.99.30/tv/api.php?id=zjws4k
