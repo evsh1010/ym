@@ -102,11 +102,7 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 深圳卫视4K,http://101.35.240.114:88/live.php?id=深圳卫视
 山东卫视4K,http://101.35.240.114:88/live.php?id=山东卫视4K
 四川卫视4K,http://101.35.240.114:88/live.php?id=四川卫视4K
-#EXTVLCOPT:http-user-agent=""
-
-
-
-
+#EXTVLCOPT:http-user-agent=
 
 浙江卫视4K,https://play-qukan.cztv.com/live/1758879019692345.m3u8
 浙江卫视4K,http://106.53.99.30/tv/api.php?id=zjws4k
