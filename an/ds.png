@@ -83,6 +83,17 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 
 
 🔴 卫 视,#genre#
+#EXTVLCOPT:http-user-agent=aliplayer
+北京卫视4K,http://101.35.240.114:88/live.php?id=北京卫视
+东方卫视4K,http://101.35.240.114:88/live.php?id=东方卫视4K
+江苏卫视4K,http://101.35.240.114:88/live.php?id=江苏卫视4K
+浙江卫视4K,http://101.35.240.114:88/live.php?id=浙江卫视4K
+湖南卫视4K,http://101.35.240.114:88/live.php?id=湖南卫视4K
+广东卫视4K,http://101.35.240.114:88/live.php?id=广东卫视4K
+深圳卫视4K,http://101.35.240.114:88/live.php?id=深圳卫视
+山东卫视4K,http://101.35.240.114:88/live.php?id=山东卫视4K
+四川卫视4K,http://101.35.240.114:88/live.php?id=四川卫视4K
+
 北京卫视,https://httop.top/ysp-北京卫视
 北京影视,http://124.222.114.206/bjtv.php?id=bjys
 北京影视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjys
