@@ -34,9 +34,7 @@ CCTV13,https://httop.top/ysp-cctv13
 CCTV14,https://17.130519.xyz/PLTV/11/224/3221225738/index.m3u8
 CCTV15,https://15.130519.xyz/PLTV/11/224/3221226147/index.m3u8
 
-CCTV2,http://8.138.7.223/tv/cctv2.php
 CCTV13,http://101.200.77.82:35455/bilibili/22142427
-CCTV16,http://8.138.7.223/tv/cctv16.m3u8
 CCTV16,http://ayocndali.v.myalicdn.com/ayocnd/4kcctv16_2td.m3u8?auth_key=1787639628-0-0-5bbc9f8b3e3d138d7134a61cfec367eb
 CGTN,https://httop.top/ysp-cgtn
 CGTN,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
@@ -131,6 +129,16 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 兵团卫视,https://httop.top/ysp-兵团卫视
 西藏卫视,http://php.jdshipin.com:8880/xztv.php?id=ws#http://xxwx.yoesun.com/xxw/西藏网.php?id=ws
 西藏影视文化,http://xxwx.yoesun.com/xxw/西藏网.php?id=ys#http://php.jdshipin.com:8880/xztv.php?id=ys
+
+北京卫视4K,http://101.35.240.114:88/live.php?id=北京卫视
+东方卫视4K,http://101.35.240.114:88/live.php?id=东方卫视4K
+江苏卫视4K,http://101.35.240.114:88/live.php?id=江苏卫视4K
+浙江卫视4K,http://101.35.240.114:88/live.php?id=浙江卫视4K
+湖南卫视4K,http://101.35.240.114:88/live.php?id=湖南卫视4K
+广东卫视4K,http://101.35.240.114:88/live.php?id=广东卫视4K
+深圳卫视4K,http://101.35.240.114:88/live.php?id=深圳卫视
+山东卫视4K,http://101.35.240.114:88/live.php?id=山东卫视4K
+四川卫视4K,http://101.35.240.114:88/live.php?id=四川卫视4K
 
 北京卫视4K,https://itv.809899.xyz/4k.php?id=btv4k
 东方卫视4K,https://itv.809899.xyz/4k.php?id=sh4k
