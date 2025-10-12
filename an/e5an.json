@@ -5,9 +5,10 @@
       "name": "MY TV",
       "type": 0,
       "url": "./ds.png",
-      "timeout": 5,
+      "ua": "okHttp/Mod-1.4.0.0",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://11.112114.xyz/logo/{name}.png"  
+      "logo": "https://11.112114.xyz/logo/{name}.png"
+      "timeout": 5,
     },
     {
       "name": "China TV",
@@ -1327,6 +1328,7 @@
     ]
 
 }
+
 
 
 
