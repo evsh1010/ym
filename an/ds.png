@@ -59,7 +59,7 @@ CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
 CCTV15,http://148.135.93.213/live.php?id=CCTV15
 CCTV16,http://101.35.240.114:88/live.php?id=CCTV16
 CCTV17,http://148.135.93.213/live.php?id=CCTV17
-#EXTVLCOPT:http-user-agent=okHttp/Mod-1.4.0.0
+#EXTVLCOPT:http-user-agent=
 
 CCTV1,http://m.061899.xyz/mg/cctv1
 CCTV2,http://m.061899.xyz/mg/cctv2
@@ -102,7 +102,7 @@ CCTV13@小央视频新闻抖音直播,video://https://webcast.amemv.com/douyin/w
 深圳卫视4K,http://101.35.240.114:88/live.php?id=深圳卫视
 山东卫视4K,http://101.35.240.114:88/live.php?id=山东卫视4K
 四川卫视4K,http://101.35.240.114:88/live.php?id=四川卫视4K
-#EXTVLCOPT:http-user-agent=okHttp/Mod-1.4.0.0
+#EXTVLCOPT:http-user-agent=
 
 浙江卫视4K,https://play-qukan.cztv.com/live/1758879019692345.m3u8
 浙江卫视4K,http://106.53.99.30/tv/api.php?id=zjws4k
