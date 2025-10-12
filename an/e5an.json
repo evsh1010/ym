@@ -7,14 +7,14 @@
       "url": "./ds.png",
       "ua": "okHttp/Mod-1.4.0.0",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://11.112114.xyz/logo/{name}.png"
-      "timeout": 5,
+      "logo": "https://11.112114.xyz/logo/{name}.png",
+      "timeout": 5
     },
     {
       "name": "China TV",
       "type": 0,
       "url": "https://live.tv.darwinchow.com/sub/02RrCRiHkSxtoGaNBUg4GZnu2KXHBT/txt",
-      "timeout": 5,
+      "timeout": 10,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://11.112114.xyz/logo/{name}.png"  
     },
@@ -1328,6 +1328,7 @@
     ]
 
 }
+
 
 
 
