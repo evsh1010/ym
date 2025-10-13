@@ -156,7 +156,6 @@ CCTV13抖音直播,video://https://webcast.amemv.com/douyin/webcast/reflow/75577
 延边卫视,https://stream1.freetv.fun/ade72d8dfe39d7d08f1d24142c98d14674d000278d1bc660a01bcbc8cff22d86.m3u8
 延边卫视,https://stream1.freetv.fun/yan-bian-wei-shi-29.m3u8
 三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
-山东教育卫视,http://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
 
 北京卫视,http://m.061899.xyz/mg/bjws
 东方卫视,http://m.061899.xyz/mg/dfws
@@ -228,6 +227,10 @@ CHC影迷电影,http://m.061899.xyz/mg/ymdy
 
 
 APTV,#genre#
+#EXTVLCOPT:http-user-agent=iPhone
+凤凰资讯,http://101.35.240.114:88/phenix.php?id=fhzx
+凤凰中文,http://101.35.240.114:88/phenix.php?id=fhzw
+凤凰香港,http://101.35.240.114:88/phenix.php?id=fhhk
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 CCTV1,http://101.35.240.114:88/live.php?id=CCTV1
 CCTV2,http://148.135.93.213/live.php?id=CCTV2
