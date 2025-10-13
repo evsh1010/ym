@@ -71,32 +71,6 @@ CCTV13抖音直播,video://https://webcast.amemv.com/douyin/webcast/reflow/75577
 
 
 🔴 卫 视,#genre#
-#EXTVLCOPT:http-user-agent=aliplayer
-北京卫视4K,http://101.35.240.114:88/live.php?id=北京卫视
-东方卫视4K,http://101.35.240.114:88/live.php?id=东方卫视4K
-江苏卫视4K,http://101.35.240.114:88/live.php?id=江苏卫视4K
-浙江卫视4K,http://101.35.240.114:88/live.php?id=浙江卫视4K
-湖南卫视4K,http://101.35.240.114:88/live.php?id=湖南卫视4K
-广东卫视4K,http://101.35.240.114:88/live.php?id=广东卫视4K
-深圳卫视4K,http://101.35.240.114:88/live.php?id=深圳卫视
-山东卫视4K,http://101.35.240.114:88/live.php?id=山东卫视4K
-四川卫视4K,http://101.35.240.114:88/live.php?id=四川卫视4K
-#EXTVLCOPT:http-user-agent=
-
-浙江卫视4K,https://play-qukan.cztv.com/live/1758879019692345.m3u8
-浙江卫视4K,http://106.53.99.30/tv/api.php?id=zjws4k
-湖南卫视4K,http://106.53.99.30/tv/api.php?id=hnws4k
-
-北京卫视4K,https://itv.809899.xyz/4k.php?id=btv4k
-东方卫视4K,https://itv.809899.xyz/4k.php?id=sh4k
-江苏卫视4K,https://itv.809899.xyz/4k.php?id=js4k
-浙江卫视4K,https://itv.809899.xyz/4k.php?id=zj4k
-湖南卫视4K,https://itv.809899.xyz/4k.php?id=hn4k
-广东卫视4K,https://itv.809899.xyz/4k.php?id=gd4k
-深圳卫视4K,https://itv.809899.xyz/4k.php?id=sz4k
-山东卫视4K,https://itv.809899.xyz/4k.php?id=sd4k
-四川卫视4K,https://itv.809899.xyz/4k.php?id=sc4k
-
 北京卫视,https://httop.top/ysp-北京卫视
 北京影视,http://124.222.114.206/bjtv.php?id=bjys
 北京影视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjys
@@ -223,6 +197,35 @@ CHC影迷电影,http://m.061899.xyz/mg/ymdy
 西藏卫视网页,video://http://tv.haoqu99.com/2/xizang.html$好趣网
 新疆卫视网页,video://https://www.xjtvs.com.cn/column/tv/434?channelId=1$新疆卫视官网
 兵团卫视网页,video://https://www.btzx.com.cn/2024new/new_zhibo/index.shtml$兵团卫视官网
+
+
+
+4K,#genre#
+#EXTVLCOPT:http-user-agent=aliplayer
+北京卫视4K,http://101.35.240.114:88/live.php?id=北京卫视
+东方卫视4K,http://101.35.240.114:88/live.php?id=东方卫视4K
+江苏卫视4K,http://101.35.240.114:88/live.php?id=江苏卫视4K
+浙江卫视4K,http://101.35.240.114:88/live.php?id=浙江卫视4K
+湖南卫视4K,http://101.35.240.114:88/live.php?id=湖南卫视4K
+广东卫视4K,http://101.35.240.114:88/live.php?id=广东卫视4K
+深圳卫视4K,http://101.35.240.114:88/live.php?id=深圳卫视
+山东卫视4K,http://101.35.240.114:88/live.php?id=山东卫视4K
+四川卫视4K,http://101.35.240.114:88/live.php?id=四川卫视4K
+#EXTVLCOPT:http-user-agent=
+
+浙江卫视4K,https://play-qukan.cztv.com/live/1758879019692345.m3u8
+浙江卫视4K,http://106.53.99.30/tv/api.php?id=zjws4k
+湖南卫视4K,http://106.53.99.30/tv/api.php?id=hnws4k
+
+北京卫视4K,https://itv.809899.xyz/4k.php?id=btv4k
+东方卫视4K,https://itv.809899.xyz/4k.php?id=sh4k
+江苏卫视4K,https://itv.809899.xyz/4k.php?id=js4k
+浙江卫视4K,https://itv.809899.xyz/4k.php?id=zj4k
+湖南卫视4K,https://itv.809899.xyz/4k.php?id=hn4k
+广东卫视4K,https://itv.809899.xyz/4k.php?id=gd4k
+深圳卫视4K,https://itv.809899.xyz/4k.php?id=sz4k
+山东卫视4K,https://itv.809899.xyz/4k.php?id=sd4k
+四川卫视4K,https://itv.809899.xyz/4k.php?id=sc4k
 
 
 
