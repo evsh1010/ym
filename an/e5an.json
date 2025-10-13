@@ -5,7 +5,7 @@
       "name": "MY TV",
       "type": 0,
       "url": "./ds.png",
-      "ua": "okHttp/Mod-1.4.0.0",
+      "ua": "okhttp/3.15",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://11.112114.xyz/logo/{name}.png",
       "timeout": 5
@@ -14,9 +14,7 @@
       "name": "China TV",
       "type": 0,
       "url": "https://live.tv.darwinchow.com/sub/02RrCRiHkSxtoGaNBUg4GZnu2KXHBT/txt",
-      "ua": "okHttp/Mod-1.4.0.0",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://11.112114.xyz/logo/{name}.png",
+      "ua": "okhttp/3.15",
       "timeout": 5
     },
     {
@@ -30,6 +28,7 @@
       "name": "冰茶咪咕",
       "type": 0,
       "url": "https://fy.188766.xyz/?ip=192.168.1.2&bconly=true",
+      "ua": "okhttp/3.15",
       "timeout": 5
     },
     {
@@ -43,16 +42,14 @@
       "name": "咪咕",
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-      "ua": "okHttp/Mod-1.4.0.0",
+      "ua": "okhttp/3.15",
       "timeout": 5
     },
     {
       "name": "魔改",
       "type": 0,
       "url": "http://rihou.cc:567/gggg.nzk",
-      "ua": "okHttp/Mod-1.4.0.0",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://11.112114.xyz/logo/{name}.png",
+      "ua": "okhttp/3.15",
       "timeout": 5
     }
   ],
@@ -1336,6 +1333,7 @@
     ]
 
 }
+
 
 
 
