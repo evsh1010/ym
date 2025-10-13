@@ -8,7 +8,6 @@ CCTV14少儿,http://101.35.240.114:88/live.php?id=CCTV14
 卡酷少儿,http://xxwx.yoesun.com/xxw/北京网.php?id=bjkk
 海南少儿,http://nn.7x9d.cn/地方台8563/海南.php?id=sepd
 哈哈炫动,http://cdn.jdshipin.com/kkxw.php?id=9
-淘BABY,http://ydl.yueyaoxian.top:8686/rtp/239.3.1.238:8001
 龙华卡通,https://cdn8.163189.xyz/live/lhkt/stream.m3u8
 奇光动漫,https://live.ottiptv.cc/douyu/12560807
 海绵宝宝,https://live.ottiptv.cc/douyu/3949681
@@ -299,6 +298,7 @@ CHC影迷电影,http://148.135.93.213/live.php?id=CHC影迷电影
 💫 电 影,#genre#
 音悦喵点歌台,https://live.ottiptv.cc/douyu/3870925
 阿七点歌台,https://live.ottiptv.cc/douyu/3186217
+
 相声小品,http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c59_fast_1044_1080P_t10/c59_fast_1044_1080P_t10.m3u8?d
 相声小品,http://106.53.99.30/tv/gitv.php?id=0015
 
@@ -314,18 +314,15 @@ CHC影迷电影,http://148.135.93.213/live.php?id=CHC影迷电影
 乡村生活,http://lvbaiducdnct.inter.ptqy.gitv.tv/tslive/c59_fast_1050_1080P_t10/c59_fast_1050_1080P_t10.m3u8?d
 乡村生活,http://106.53.99.30/tv/gitv.php?id=0011
 
-淘电影,http://ydl.yueyaoxian.top:8686/rtp/239.3.1.250:8001
-淘剧场,http://ydl.yueyaoxian.top:8686/rtp/239.3.1.95:8001
-
 1905电影网,http://php.jdshipin.com/1905.php
-
-CHC动作电影,http://168250.xyz:1111/rtp/239.5.1.52:5000
-CHC家庭影院,http://168250.xyz:1111/rtp/239.5.1.50:5000
-CHC影迷电影,http://168250.xyz:1111/rtp/239.5.1.51:5000
 
 重温经典,http://8.138.7.223/tv/cwjd.php
 重温经典,http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
 重温经典,http://api.hk.itv888.cn:8080/hls/ba0e4e5dd67/index.m3u8
+
+CHC动作电影,http://168250.xyz:1111/rtp/239.5.1.52:5000
+CHC家庭影院,http://168250.xyz:1111/rtp/239.5.1.50:5000
+CHC影迷电影,http://168250.xyz:1111/rtp/239.5.1.51:5000
 
 
 
