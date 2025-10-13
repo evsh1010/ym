@@ -1,6 +1,6 @@
 ✨ 少 儿 ,#genre#
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
-CCTV-14 少儿,http://101.35.240.114:88/live.php?id=CCTV14
+CCTV14少儿,http://101.35.240.114:88/live.php?id=CCTV14
 #EXTVLCOPT:http-user-agent=
 浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 内蒙古少儿,http://play1-qk.nmtv.cn/live/1686560464515368.m3u8
@@ -28,7 +28,7 @@ CCTV5+体育赛事,https://httop.top/ysp-cctv5+
 CCTV6电影,https://httop.top/ysp-cctv6
 CCTV7国防军事,https://httop.top/ysp-cctv7
 CCTV8电视剧,https://httop.top/ysp-cctv8
-CCTV-9 记录,https://httop.top/ysp-cctv9
+CCTV9记录,https://httop.top/ysp-cctv9
 CCTV10科教,https://httop.top/ysp-cctv10
 CCTV11戏曲,https://14.130519.xyz/PLTV/11/224/3221226101/index.m3u8
 CCTV12社会与法,https://11.130519.xyz/PLTV/11/224/3221226103/index.m3u8
