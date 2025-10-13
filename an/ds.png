@@ -71,7 +71,7 @@ CCTV13抖音直播,video://https://webcast.amemv.com/douyin/webcast/reflow/75577
 
 
 🔴 卫 视,#genre#
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
+#EXTVLCOPT:http-user-agent=aliplayer
 北京卫视4K,http://101.35.240.114:88/live.php?id=北京卫视
 东方卫视4K,http://101.35.240.114:88/live.php?id=东方卫视4K
 江苏卫视4K,http://101.35.240.114:88/live.php?id=江苏卫视4K
