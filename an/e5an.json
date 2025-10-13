@@ -37,6 +37,13 @@
       "timeout": 5
     },
     {
+      "name": "YanG-1989",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather",
+      "ua": "okHttp/Mod-1.4.0.0",
+      "timeout": 5
+    },
+    {
       "name": "咪咕",
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
@@ -1335,6 +1342,7 @@
     ]
 
 }
+
 
 
 
