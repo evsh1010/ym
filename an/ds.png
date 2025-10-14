@@ -73,10 +73,6 @@ CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
 
 
 🔴 卫视 🌀 4K,#genre#
-#EXTVLCOPT:http-user-agent=iPhone
-凤凰资讯,http://101.35.240.114:88/phenix.php?id=fhzx
-凤凰中文,http://101.35.240.114:88/phenix.php?id=fhzw
-凤凰香港,http://101.35.240.114:88/phenix.php?id=fhhk
 #EXTVLCOPT:http-user-agent=aliplayer
 北京卫视4K,http://101.35.240.114:88/live.php?id=北京卫视
 东方卫视4K,http://101.35.240.114:88/live.php?id=东方卫视4K
@@ -87,6 +83,10 @@ CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
 深圳卫视4K,http://101.35.240.114:88/live.php?id=深圳卫视
 山东卫视4K,http://101.35.240.114:88/live.php?id=山东卫视4K
 四川卫视4K,http://101.35.240.114:88/live.php?id=四川卫视4K
+#EXTVLCOPT:http-user-agent=iPhone
+凤凰资讯,http://101.35.240.114:88/phenix.php?id=fhzx
+凤凰中文,http://101.35.240.114:88/phenix.php?id=fhzw
+凤凰香港,http://101.35.240.114:88/phenix.php?id=fhhk
 #EXTVLCOPT:http-user-agent=
 
 浙江卫视4K,https://play-qukan.cztv.com/live/1758879019692345.m3u8
