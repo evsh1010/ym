@@ -1,4 +1,4 @@
-✨ 少 儿 ,#genre#
+✨ 少儿 ,#genre#
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 CCTV14少儿,http://101.35.240.114:88/live.php?id=CCTV14
 #EXTVLCOPT:http-user-agent=
@@ -18,7 +18,7 @@ CCTV14少儿,http://101.35.240.114:88/live.php?id=CCTV14
 
 
 
-🇨🇳 央 视,#genre#
+🇨🇳 央视,#genre#
 CCTV1综合,http://110.42.63.57:158/live/ysp.php?id=CCTV1
 CCTV2财经,http://110.42.63.57:158/live/ysp.php?id=CCTV2
 CCTV3综艺,http://110.42.63.57:158/live/ysp.php?id=CCTV3
@@ -52,6 +52,13 @@ CCTV10科教,https://httop.top/ysp-cctv10
 CCTV13新闻,https://httop.top/ysp-cctv13
 CGTN英语,https://httop.top/ysp-cgtn
 
+CGTN英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
+CGTN纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
+CCTV2抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/7548061013439318838?sec_user_id=MS4wLjABAAAAzrRqzBM_qqg3Q9h-IxA1MQSimf8ZgoLlw7f1r2NIvvo
+CCTV6抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/7556280417586793262?sec_user_id=MS4wLjABAAAARiWcPkW0K_OOSbKFxWpGbHlFtF8G5Zvv6xf9JaADMpI
+CCTV13抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/7555448845543443252?sec_user_id=MS4wLjABAAAADxxSM17aDo5GBB7mt6bHbOS2jzQpBxevn8Lh2rMkY8g
+CCTV13抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/7557750669718244105?sec_user_id=MS4wLjABAAAA4vgRHGrSG6rPlffm3RvwHWL8TBq7O4YnM5jHUNXz0-s
+
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 CCTV1,http://101.35.240.114:88/live.php?id=CCTV1
 CCTV3,http://101.35.240.114:88/live.php?id=CCTV3
@@ -63,18 +70,9 @@ CCTV12,http://101.35.240.114:88/live.php?id=CCTV12
 CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
 #EXTVLCOPT:http-user-agent=
 
-CCTV13新闻,http://101.200.77.82:35455/bilibili/22142427
-CCTV16奥林匹克,http://ayocndali.v.myalicdn.com/ayocnd/4kcctv16_2td.m3u8?auth_key=1787639628-0-0-5bbc9f8b3e3d138d7134a61cfec367eb
-CGTN英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
-CGTN纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
-CCTV2抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/7548061013439318838?sec_user_id=MS4wLjABAAAAzrRqzBM_qqg3Q9h-IxA1MQSimf8ZgoLlw7f1r2NIvvo
-CCTV6抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/7556280417586793262?sec_user_id=MS4wLjABAAAARiWcPkW0K_OOSbKFxWpGbHlFtF8G5Zvv6xf9JaADMpI
-CCTV13抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/7555448845543443252?sec_user_id=MS4wLjABAAAADxxSM17aDo5GBB7mt6bHbOS2jzQpBxevn8Lh2rMkY8g
-CCTV13抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/7557750669718244105?sec_user_id=MS4wLjABAAAA4vgRHGrSG6rPlffm3RvwHWL8TBq7O4YnM5jHUNXz0-s
 
 
-
-🔴卫视 🌀4K,#genre#
+🔴 卫视 🌀 4K,#genre#
 #EXTVLCOPT:http-user-agent=iPhone
 凤凰资讯,http://101.35.240.114:88/phenix.php?id=fhzx
 凤凰中文,http://101.35.240.114:88/phenix.php?id=fhzw
@@ -253,7 +251,7 @@ CHC影迷电影,http://168250.xyz:1111/rtp/239.5.1.51:5000
 
 
 
-🌠 港 澳 台,#genre#
+🌠 港澳台,#genre#
 凤凰资讯,https://cdn6.101.qzz.io/163189/fhzx
 凤凰中文,https://cdn6.101.qzz.io/163189/fhzw
 凤凰香港,https://cdn6.101.qzz.io/163189/fhhk
@@ -321,7 +319,7 @@ TVB星河,http://php.jdshipin.com:8880/smt.php?id=Xinhe
 
 
 
-咪 咕（有弹码）,#genre#
+咪咕(有弹码),#genre#
 CCTV1综合,http://m.061899.xyz/mg/cctv1
 CCTV2财经,http://m.061899.xyz/mg/cctv2
 CCTV3综艺,http://m.061899.xyz/mg/cctv3
