@@ -52,6 +52,17 @@ CCTV10科教,https://httop.top/ysp-cctv10
 CCTV13新闻,https://httop.top/ysp-cctv13
 CGTN英语,https://httop.top/ysp-cgtn
 
+#EXTVLCOPT:http-user-agent=AptvPlayer-UA
+CCTV1,http://101.35.240.114:88/live.php?id=CCTV1
+CCTV3,http://101.35.240.114:88/live.php?id=CCTV3
+CCTV5,http://101.35.240.114:88/live.php?id=CCTV5
+CCTV6,http://101.35.240.114:88/live.php?id=CCTV6
+CCTV8,http://101.35.240.114:88/live.php?id=CCTV8
+CCTV10,http://101.35.240.114:88/live.php?id=CCTV10
+CCTV12,http://101.35.240.114:88/live.php?id=CCTV12
+CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
+#EXTVLCOPT:http-user-agent=
+
 CCTV13新闻,http://101.200.77.82:35455/bilibili/22142427
 CCTV16奥林匹克,http://ayocndali.v.myalicdn.com/ayocnd/4kcctv16_2td.m3u8?auth_key=1787639628-0-0-5bbc9f8b3e3d138d7134a61cfec367eb
 CGTN英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
@@ -64,6 +75,10 @@ CCTV13抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/75577506697
 
 
 🔴卫视 🌀4K,#genre#
+#EXTVLCOPT:http-user-agent=iPhone
+凤凰资讯,http://101.35.240.114:88/phenix.php?id=fhzx
+凤凰中文,http://101.35.240.114:88/phenix.php?id=fhzw
+凤凰香港,http://101.35.240.114:88/phenix.php?id=fhhk
 #EXTVLCOPT:http-user-agent=aliplayer
 北京卫视4K,http://101.35.240.114:88/live.php?id=北京卫视
 东方卫视4K,http://101.35.240.114:88/live.php?id=东方卫视4K
@@ -79,7 +94,6 @@ CCTV13抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/75577506697
 浙江卫视4K,https://play-qukan.cztv.com/live/1758879019692345.m3u8
 浙江卫视4K,http://106.53.99.30/tv/api.php?id=zjws4k
 湖南卫视4K,http://106.53.99.30/tv/api.php?id=hnws4k
-
 北京卫视4K,https://itv.809899.xyz/4k.php?id=btv4k
 东方卫视4K,https://itv.809899.xyz/4k.php?id=sh4k
 江苏卫视4K,https://itv.809899.xyz/4k.php?id=js4k
@@ -155,19 +169,7 @@ CCTV13抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/75577506697
 
 
 🧩 APTV,#genre#
-#EXTVLCOPT:http-user-agent=iPhone
-凤凰资讯,http://101.35.240.114:88/phenix.php?id=fhzx
-凤凰中文,http://101.35.240.114:88/phenix.php?id=fhzw
-凤凰香港,http://101.35.240.114:88/phenix.php?id=fhhk
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
-CCTV1,http://101.35.240.114:88/live.php?id=CCTV1
-CCTV3,http://101.35.240.114:88/live.php?id=CCTV3
-CCTV5,http://101.35.240.114:88/live.php?id=CCTV5
-CCTV6,http://101.35.240.114:88/live.php?id=CCTV6
-CCTV8,http://101.35.240.114:88/live.php?id=CCTV8
-CCTV10,http://101.35.240.114:88/live.php?id=CCTV10
-CCTV12,http://101.35.240.114:88/live.php?id=CCTV12
-CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
 东方卫视,http://101.35.240.114:88/live.php?id=东方卫视
 五星体育,http://101.35.240.114:88/live.php?id=五星体育
 江苏卫视,http://101.35.240.114:88/live.php?id=江苏卫视
