@@ -73,11 +73,12 @@ CCTV13抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/75577506697
 广东卫视4K,http://101.35.240.114:88/live.php?id=广东卫视4K
 深圳卫视4K,http://101.35.240.114:88/live.php?id=深圳卫视
 山东卫视4K,http://101.35.240.114:88/live.php?id=山东卫视4K
-四川卫视4K,http://101.35.240.114:88/live.php?id=四川卫视4K
 
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 浙江卫视,http://101.35.240.114:88/live.php?id=浙江卫视
+湖南卫视,http://101.35.240.114:88/live.php?id=湖南卫视
 江西卫视,http://101.35.240.114:88/live.php?id=江西卫视
+湖北卫视,http://101.35.240.114:88/live.php?id=湖北卫视
 陕西卫视,http://101.35.240.114:88/live.php?id=陕西卫视
 内蒙古卫视,http://101.35.240.114:88/live.php?id=内蒙古卫视
 重温经典,http://101.35.240.114:88/live.php?id=重温经典
@@ -96,19 +97,6 @@ CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
 
 
 🔴 卫视,#genre#
-北京卫视4K,https://itv.809899.xyz/4k.php?id=btv4k
-东方卫视4K,https://itv.809899.xyz/4k.php?id=sh4k
-江苏卫视4K,https://itv.809899.xyz/4k.php?id=js4k
-浙江卫视4K,https://itv.809899.xyz/4k.php?id=zj4k
-湖南卫视4K,https://itv.809899.xyz/4k.php?id=hn4k
-广东卫视4K,https://itv.809899.xyz/4k.php?id=gd4k
-深圳卫视4K,https://itv.809899.xyz/4k.php?id=sz4k
-山东卫视4K,https://itv.809899.xyz/4k.php?id=sd4k
-四川卫视4K,https://itv.809899.xyz/4k.php?id=sc4k
-浙江卫视4K,https://play-qukan.cztv.com/live/1758879019692345.m3u8
-浙江卫视4K,http://106.53.99.30/tv/api.php?id=zjws4k
-湖南卫视4K,http://106.53.99.30/tv/api.php?id=hnws4k
-
 北京卫视,https://httop.top/ysp-北京卫视
 东方卫视,https://httop.top/ysp-东方卫视
 江苏卫视,https://httop.top/ysp-江苏卫视
@@ -142,6 +130,17 @@ CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
 新疆卫视,https://httop.top/ysp-新疆卫视
 兵团卫视,https://httop.top/ysp-兵团卫视
 
+北京卫视,https://itv.809899.xyz/4k.php?id=btv4k
+东方卫视,https://itv.809899.xyz/4k.php?id=sh4k
+江苏卫视,https://itv.809899.xyz/4k.php?id=js4k
+浙江卫视,https://itv.809899.xyz/4k.php?id=zj4k
+湖南卫视,https://itv.809899.xyz/4k.php?id=hn4k
+深圳卫视,https://itv.809899.xyz/4k.php?id=sz4k
+四川卫视,https://itv.809899.xyz/4k.php?id=sc4k
+浙江卫视,https://play-qukan.cztv.com/live/1758879019692345.m3u8
+浙江卫视,http://106.53.99.30/tv/api.php?id=zjws4k
+湖南卫视,http://106.53.99.30/tv/api.php?id=hnws4k
+
 北京卫视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjws
 东方卫视,http://cdn.jdshipin.com/kkxw.php?id=1
 江苏卫视,http://xxwx.yoesun.com/xxw/江苏网.php?id=jsws
@@ -155,6 +154,7 @@ CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
 延边卫视,https://stream1.freetv.fun/ade72d8dfe39d7d08f1d24142c98d14674d000278d1bc660a01bcbc8cff22d86.m3u8
 延边卫视,https://stream1.freetv.fun/yan-bian-wei-shi-29.m3u8
 三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
+
 浙江卫视网页,video://https://www.cztv.com/liveTV/101$浙江卫视官网
 江苏卫视网页,video://https://live.jstv.com/$江苏卫视官网
 东方卫视网页,video://https://live.kankanews.com/huikan?id=1$看看新闻网
@@ -168,9 +168,9 @@ CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
 陕西卫视网页,video://http://live.snrtv.com/star$陕西卫视官网
 甘肃卫视网页,video://https://www.gstv.com.cn/zxc.jhtml$甘肃卫视官网
 内蒙古卫视网页,video://https://www.nmtv.cn/liveTv$内蒙古卫视官网
-西藏卫视网页,video://http://tv.haoqu99.com/2/xizang.html$好趣网
 新疆卫视网页,video://https://www.xjtvs.com.cn/column/tv/434?channelId=1$新疆卫视官网
 兵团卫视网页,video://https://www.btzx.com.cn/2024new/new_zhibo/index.shtml$兵团卫视官网
+西藏卫视网页,video://http://tv.haoqu99.com/2/xizang.html$好趣网
 
 
 
