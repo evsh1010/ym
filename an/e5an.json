@@ -30,13 +30,6 @@
       "timeout": 5
     },
     {
-      "name": "YanG-1989",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Gather",
-      "ua": "okhttp/3.15",
-      "timeout": 5
-    },
-    {
       "name": "develop202",
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
@@ -44,7 +37,7 @@
       "timeout": 5
     },
     {
-      "name": "魔改",
+      "name": "猫TV",
       "type": 0,
       "url": "http://rihou.cc:567/gggg.nzk",
       "ua": "okhttp/3.15",
@@ -1315,6 +1308,7 @@
     ]
 
 }
+
 
 
 
