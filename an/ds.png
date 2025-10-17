@@ -1,7 +1,4 @@
 ✨ 少儿 ,#genre#
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-CCTV14少儿,http://101.35.240.114:88/live.php?id=CCTV14
-#EXTVLCOPT:http-user-agent=
 浙江少儿,https://zwebl02.cztv.com/live/channel081080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-668e5a5a00e74f14f426cc55210a4ff9
 浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 深圳少儿,http://nn.7x9d.cn/深圳最新.php?id=szse
@@ -53,7 +50,7 @@ CCTV9纪录,https://httop.top/ysp-cctv9
 CCTV10科教,https://httop.top/ysp-cctv10
 CCTV13新闻,https://httop.top/ysp-cctv13
 
-CCTV13,https://cdn3.163189.xyz/163189/cctv13
+CCTV13新闻,https://cdn3.163189.xyz/163189/cctv13
 CGTN英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 CGTN纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 CCTV2抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/7548061013439318838?sec_user_id=MS4wLjABAAAAzrRqzBM_qqg3Q9h-IxA1MQSimf8ZgoLlw7f1r2NIvvo
@@ -215,10 +212,6 @@ CHC影迷电影,http://168250.xyz:1111/rtp/239.5.1.51:5000
 
 
 🌠 港•澳•台,#genre#
-凤凰资讯,http://play-ali.cloudvdn.com/live/00987tp0032.flv
-凤凰中文,http://play-ali.cloudvdn.com/live/00987tp0034.flv
-凤凰香港,http://play-ali.cloudvdn.com/live/00987tp0033.flv
-
 凤凰资讯,https://cdn6.101.qzz.io/163189/fhzx
 凤凰中文,https://cdn6.101.qzz.io/163189/fhzw
 凤凰香港,https://cdn6.101.qzz.io/163189/fhhk
@@ -272,8 +265,6 @@ TVB星河,http://php.jdshipin.com:8880/smt.php?id=Xinhe
 天映频道,https://smt.1678520.xyz/smt3.2.1.php?id=Celestial
 天映频道,http://php.jdshipin.com/smt.php?id=Celestial
 天映频道,http://php.jdshipin.com:8880/smt.php?id=Celestial
-
-天映经典,http://play-ali.cloudvdn.com/live/00987tp0035.flv
 
 天映经典,https://cdn9.163189.xyz/smt3.1.1.php?id=Celestial2
 天映经典,https://cdn9.163189.xyz/smt1.1.php?id=Celestial2
