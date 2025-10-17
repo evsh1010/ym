@@ -18,8 +18,8 @@
 
 
 🌀 央视,#genre#
-CCTV1综合,http://110.42.63.57:158/live/ysp.php?id=CCTV1
-CCTV2财经,http://110.42.63.57:158/live/ysp.php?id=CCTV2
+CCTV1综合,https://v.lib.tju.edu.cn/liverespath/b455c7a019d404d571655c457e0ee8a9440a7802/86a160ee1c-0-0-20d675f67aaf70ab040c48e3edfbcd64/index.m3u8
+CCTV2财经,http://liveali-tpsdr.cctv.cn/hls/CCTV28bee868714f04ea2af79947bb9b46fc3H/playlist.m3u8?wsSecret=ed4416ab0f89559b5a09ca90ab81520c&wsTime=1760722033
 CCTV3综艺,http://110.42.63.57:158/live/ysp.php?id=CCTV3
 CCTV4中文国际,http://110.42.63.57:158/live/ysp.php?id=CCTV4
 CCTV5体育,http://110.42.63.57:158/live/ysp.php?id=CCTV5
@@ -31,6 +31,7 @@ CCTV9纪录,http://110.42.63.57:158/live/ysp.php?id=CCTV9
 CCTV10科教,http://110.42.63.57:158/live/ysp.php?id=CCTV10
 CCTV11戏曲,http://110.42.63.57:158/live/ysp.php?id=CCTV11
 CCTV12社会与法,http://110.42.63.57:158/live/ysp.php?id=CCTV12
+CCTV13新闻,http://106.53.99.30/tv/cctv13.php
 CCTV13新闻,https://cdn3.163189.xyz/163189/cctv13
 CCTV14少儿,http://110.42.63.57:158/live/ysp.php?id=CCTV14
 CCTV15音乐,http://110.42.63.57:158/live/ysp.php?id=CCTV15
@@ -107,9 +108,10 @@ CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
 河北卫视,https://httop.top/ysp-河北卫视
 辽宁卫视,https://httop.top/ysp-辽宁卫视
 吉林卫视,https://httop.top/ysp-吉林卫视
-黑龙江卫视,https://httop.top/ysp-黑龙江卫视
+黑龙江卫视,https://idclive.hljtv.com:4430/live/hljws_own.m3u8
 广西卫视,https://httop.top/ysp-广西卫视
 山西卫视,http://www.lwfz.fun:8800/udp/239.16.10.24:2000
+山西卫视,https://livehhhttps.sxrtv.com/lsdream/q8RVWgs/1000/03sqlR0.m3u8
 陕西卫视,https://httop.top/ysp-陕西卫视
 宁夏卫视,https://httop.top/ysp-宁夏卫视
 甘肃卫视,https://httop.top/ysp-甘肃卫视
