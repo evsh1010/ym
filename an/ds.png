@@ -20,7 +20,7 @@
 🌀 央视,#genre#
 CCTV1综合,
 CCTV2财经,https://pull-f3.douyincdn.com/media/stream-694577073854874284.flv?arch_hrchy=w1&auth_key=1761326347-0-0-dbfd32387bd7fad4abfe64f0de72e067&exp_hrchy=w1&major_anchor_level=common&t_id=037-20251018014907E2527CA9CE372E49188B-nSS23j&unique_id=stream-694577073854874284_684_flv&_session_id=488-202510180149078569429795530AF212E2.1760723347856.05002&rsi=0&abr_pts=-800
-CCTV2财经,
+CCTV2财经,http://8.138.7.223/tv/cctv2.php
 CCTV3综艺,http://110.42.63.57:158/live/ysp.php?id=CCTV3
 CCTV4中文国际,http://110.42.63.57:158/live/ysp.php?id=CCTV4
 CCTV5体育,http://110.42.63.57:158/live/ysp.php?id=CCTV5
@@ -81,7 +81,6 @@ CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
 
 
 🔴 卫视,#genre#
-北京卫视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1760725438&sign=45488875115228cf8aef6d049490ca3e
 北京卫视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjws
 东方卫视,http://cdn.jdshipin.com/kkxw.php?id=1
 江苏卫视,http://xxwx.yoesun.com/xxw/江苏网.php?id=jsws
@@ -98,9 +97,9 @@ CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
 安徽卫视,https://httop.top/ysp-安徽卫视
 江西卫视,https://httop.top/ysp-江西卫视
 湖北卫视,https://httop.top/ysp-湖北卫视
-海南卫视,https://live2.hnntv.cn/srs/tv/lywsgq.m3u8?_upt=4b5ad1831760732898
 海南卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
 东南卫视,https://httop.top/ysp-东南卫视
+海峡卫视,http://8.138.7.223/tv/hxws.php
 天津卫视,https://httop.top/ysp-天津卫视
 重庆卫视,https://httop.top/ysp-重庆卫视
 云南卫视,https://hwapi.yntv.net/62hdvf/41hse3.m3u8?tk=cf95caee121a832dfeba6aa60ba90451&t=1760725977
