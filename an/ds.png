@@ -20,6 +20,7 @@
 🌀 央视,#genre#
 CCTV1综合,https://v.lib.tju.edu.cn/liverespath/b455c7a019d404d571655c457e0ee8a9440a7802/86a160ee1c-0-0-20d675f67aaf70ab040c48e3edfbcd64/index.m3u8
 CCTV2财经,http://liveali-tpsdr.cctv.cn/hls/CCTV28bee868714f04ea2af79947bb9b46fc3H/playlist.m3u8?wsSecret=ed4416ab0f89559b5a09ca90ab81520c&wsTime=1760722033
+CCTV2财经,https://pull-f3.douyincdn.com/media/stream-694577073854874284.flv?arch_hrchy=w1&auth_key=1761326347-0-0-dbfd32387bd7fad4abfe64f0de72e067&exp_hrchy=w1&major_anchor_level=common&t_id=037-20251018014907E2527CA9CE372E49188B-nSS23j&unique_id=stream-694577073854874284_684_flv&_session_id=488-202510180149078569429795530AF212E2.1760723347856.05002&rsi=0&abr_pts=-800
 CCTV3综艺,http://110.42.63.57:158/live/ysp.php?id=CCTV3
 CCTV4中文国际,http://110.42.63.57:158/live/ysp.php?id=CCTV4
 CCTV5体育,http://110.42.63.57:158/live/ysp.php?id=CCTV5
@@ -32,6 +33,7 @@ CCTV10科教,http://110.42.63.57:158/live/ysp.php?id=CCTV10
 CCTV11戏曲,http://110.42.63.57:158/live/ysp.php?id=CCTV11
 CCTV12社会与法,http://110.42.63.57:158/live/ysp.php?id=CCTV12
 CCTV13新闻,http://106.53.99.30/tv/cctv13.php
+CCTV13新闻,https://pull-flv-f1.douyincdn.com/media/stream-118126700539151020.flv?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20251018015116EEDC1E3C5AFF14F3D041-vluwt1&unique_id=stream-118126700539151020_684_flv&wsSecret=af22834c31d74ca100194af6b7049b6f&wsTime=68f28214&_session_id=454-202510180151165860911073580FAD124D.1760723476586.69645&rsi=0&abr_pts=-800
 CCTV13新闻,https://cdn3.163189.xyz/163189/cctv13
 CCTV14少儿,http://110.42.63.57:158/live/ysp.php?id=CCTV14
 CCTV15音乐,http://110.42.63.57:158/live/ysp.php?id=CCTV15
