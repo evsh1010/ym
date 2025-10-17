@@ -19,8 +19,8 @@
 
 🌀 央视,#genre#
 CCTV1综合,https://v.lib.tju.edu.cn/liverespath/b455c7a019d404d571655c457e0ee8a9440a7802/86a160ee1c-0-0-20d675f67aaf70ab040c48e3edfbcd64/index.m3u8
-CCTV2财经,http://liveali-tpsdr.cctv.cn/hls/CCTV28bee868714f04ea2af79947bb9b46fc3H/playlist.m3u8?wsSecret=ed4416ab0f89559b5a09ca90ab81520c&wsTime=1760722033
 CCTV2财经,https://pull-f3.douyincdn.com/media/stream-694577073854874284.flv?arch_hrchy=w1&auth_key=1761326347-0-0-dbfd32387bd7fad4abfe64f0de72e067&exp_hrchy=w1&major_anchor_level=common&t_id=037-20251018014907E2527CA9CE372E49188B-nSS23j&unique_id=stream-694577073854874284_684_flv&_session_id=488-202510180149078569429795530AF212E2.1760723347856.05002&rsi=0&abr_pts=-800
+CCTV2财经,http://liveali-tpsdr.cctv.cn/hls/CCTV28bee868714f04ea2af79947bb9b46fc3H/playlist.m3u8?wsSecret=ed4416ab0f89559b5a09ca90ab81520c&wsTime=1760722033
 CCTV3综艺,http://110.42.63.57:158/live/ysp.php?id=CCTV3
 CCTV4中文国际,http://110.42.63.57:158/live/ysp.php?id=CCTV4
 CCTV5体育,http://110.42.63.57:158/live/ysp.php?id=CCTV5
@@ -32,9 +32,9 @@ CCTV9纪录,http://110.42.63.57:158/live/ysp.php?id=CCTV9
 CCTV10科教,http://110.42.63.57:158/live/ysp.php?id=CCTV10
 CCTV11戏曲,http://110.42.63.57:158/live/ysp.php?id=CCTV11
 CCTV12社会与法,http://110.42.63.57:158/live/ysp.php?id=CCTV12
-CCTV13新闻,http://106.53.99.30/tv/cctv13.php
 CCTV13新闻,https://pull-flv-f1.douyincdn.com/media/stream-118126700539151020.flv?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20251018015116EEDC1E3C5AFF14F3D041-vluwt1&unique_id=stream-118126700539151020_684_flv&wsSecret=af22834c31d74ca100194af6b7049b6f&wsTime=68f28214&_session_id=454-202510180151165860911073580FAD124D.1760723476586.69645&rsi=0&abr_pts=-800
 CCTV13新闻,https://pull-f5.douyinliving.com/media/stream-694620135005094738.flv?arch_hrchy=s2&expire=1761328472&major_anchor_level=vip&s_anchor=1&sign=ceded3089bae4b7a1ba76b1b9f4a3c09&t_id=037-20251018015431DF3825A1DD61BB613265-imRqA2&unique_id=stream-694620135005094738_850_flv&volcSecret=ceded3089bae4b7a1ba76b1b9f4a3c09&volcTime=1761328472&_session_id=888-2025101801543230706208262B710BFDBA.1760723672307.42693&rsi=0&abr_pts=-800
+CCTV13新闻,http://106.53.99.30/tv/cctv13.php
 CCTV13新闻,https://cdn3.163189.xyz/163189/cctv13
 CCTV14少儿,http://110.42.63.57:158/live/ysp.php?id=CCTV14
 CCTV15音乐,http://110.42.63.57:158/live/ysp.php?id=CCTV15
@@ -42,11 +42,7 @@ CCTV16奥林匹克,http://110.42.63.57:158/live/ysp.php?id=CCTV16
 CCTV17农业农村,http://110.42.63.57:158/live/ysp.php?id=CCTV17
 CGTN英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 CGTN纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
-CCTV2抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/7548061013439318838?sec_user_id=MS4wLjABAAAAzrRqzBM_qqg3Q9h-IxA1MQSimf8ZgoLlw7f1r2NIvvo
 CCTV6抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/7556280417586793262?sec_user_id=MS4wLjABAAAARiWcPkW0K_OOSbKFxWpGbHlFtF8G5Zvv6xf9JaADMpI
-CCTV13抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/7555448845543443252?sec_user_id=MS4wLjABAAAADxxSM17aDo5GBB7mt6bHbOS2jzQpBxevn8Lh2rMkY8g
-CCTV13抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/7557750669718244105?sec_user_id=MS4wLjABAAAA4vgRHGrSG6rPlffm3RvwHWL8TBq7O4YnM5jHUNXz0-s
-
 #EXTVLCOPT:http-user-agent=iPhone
 凤凰资讯,http://101.35.240.114:88/phenix.php?id=fhzx
 凤凰中文,http://101.35.240.114:88/phenix.php?id=fhzw
