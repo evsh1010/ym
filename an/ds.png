@@ -84,6 +84,7 @@ CCTV14,http://101.35.240.114:88/live.php?id=CCTV14
 北京卫视,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1760725438&sign=45488875115228cf8aef6d049490ca3e
 北京卫视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjws
 东方卫视,http://cdn.jdshipin.com/kkxw.php?id=1
+江苏卫视,video://https://live.jstv.com/?channelId=542
 江苏卫视,http://xxwx.yoesun.com/xxw/江苏网.php?id=jsws
 浙江卫视,https://zwebl02.cztv.com/live/channel011080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-ec2283c392de5aa07c72e770576478bb
 浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
