@@ -25,7 +25,7 @@ CCTV3综艺,http://110.42.63.57:158/live/ysp.php?id=CCTV3
 CCTV4中文国际,http://110.42.63.57:158/live/ysp.php?id=CCTV4
 CCTV5体育,http://110.42.63.57:158/live/ysp.php?id=CCTV5
 CCTV5+体育赛事,http://110.42.63.57:158/live/ysp.php?id=CCTV5p
-CCTV6电影,https:http://110.42.63.57:158/live/ysp.php?id=CCTV6
+CCTV6电影,https://pull-f3.douyincdn.com/media/stream-118164168968766124.flv?arch_hrchy=w1&auth_key=1761388136-0-0-9b81b78a7c777d29731976decd4cce60&exp_hrchy=w1&major_anchor_level=common&t_id=037-20251018185856096890AFA94A2FC63E7A-b6R3Uy&unique_id=stream-118164168968766124_684_flv&_session_id=248-202510181858568881889227E658DE7CEE.1760785136888.69305&rsi=0&abr_pts=-800
 CCTV7国防军事,http://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv7_mbd.m3u8?auth_key=1760776666-1-pcs091549d3b5ca413c904d3ca43a0c8d44-94843dccc6b109e811c0a4a232500b7b
 CCTV8电视剧,http://110.42.63.57:158/live/ysp.php?id=CCTV8
 CCTV9纪录,http://110.42.63.57:158/live/ysp.php?id=CCTV9
@@ -42,7 +42,7 @@ CCTV16奥林匹克,http://110.42.63.57:158/live/ysp.php?id=CCTV16
 CCTV17农业农村,http://110.42.63.57:158/live/ysp.php?id=CCTV17
 CGTN英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 CGTN纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
-CCTV6抖音,video://https://webcast.amemv.com/douyin/webcast/reflow/7556280417586793262?sec_user_id=MS4wLjABAAAARiWcPkW0K_OOSbKFxWpGbHlFtF8G5Zvv6xf9JaADMpI
+
 #EXTVLCOPT:http-user-agent=iPhone
 凤凰资讯,http://101.35.240.114:88/phenix.php?id=fhzx
 凤凰中文,http://101.35.240.114:88/phenix.php?id=fhzw
