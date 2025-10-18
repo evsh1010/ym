@@ -29,14 +29,14 @@ CCTV6 电影,video://https://live.douyin.com/cctv6media.
 🌀 央视•卫视,#genre#
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 CCTV1 综合,http://101.35.240.114:88/live.php?id=CCTV1
-CCTV2 财经,https://pull-f3.douyincdn.com/media/stream-694577073854874284.flv?arch_hrchy=w1&auth_key=1761326347-0-0-dbfd32387bd7fad4abfe64f0de72e067&exp_hrchy=w1&major_anchor_level=common&t_id=037-20251018014907E2527CA9CE372E49188B-nSS23j&unique_id=stream-694577073854874284_684_flv&_session_id=488-202510180149078569429795530AF212E2.1760723347856.05002&rsi=0&abr_pts=-800
+CCTV2 财经,http://110.42.63.57:158/live/ysp.php?id=CCTV2
 CCTV2 财经,http://8.138.7.223/tv/cctv2.php
 CCTV3 综艺,http://101.35.240.114:88/live.php?id=CCTV3
 CCTV4 中文国际,http://110.42.63.57:158/live/ysp.php?id=CCTV4
 CCTV5 体育,http://101.35.240.114:88/live.php?id=CCTV5
 CCTV5+ 体育赛事,http://110.42.63.57:158/live/ysp.php?id=CCTV5p
 CCTV6 电影,http://101.35.240.114:88/live.php?id=CCTV6
-CCTV7 国防军事,d
+CCTV7 国防军事,http://110.42.63.57:158/live/ysp.php?id=CCTV7
 CCTV8 电视剧,http://101.35.240.114:88/live.php?id=CCTV8
 CCTV9 纪录,http://110.42.63.57:158/live/ysp.php?id=CCTV9
 CCTV10 科教,http://101.35.240.114:88/live.php?id=CCTV10
