@@ -32,8 +32,7 @@ CCTV6 电影抖音,video://https://live.douyin.com/cctv6media.
 🌀 央视•卫视,#genre#
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 CCTV1 综合,http://110.42.63.57:158/live/ysp.php?id=CCTV1#http://101.35.240.114:88/live.php?id=CCTV1
-CCTV2 财经,http://110.42.63.57:158/live/ysp.php?id=CCTV2
-CCTV2 财经,http://8.138.7.223/tv/cctv2.php
+CCTV2 财经,http://110.42.63.57:158/live/ysp.php?id=CCTV2#http://8.138.7.223/tv/cctv2.php
 CCTV3 综艺,http://110.42.63.57:158/live/ysp.php?id=CCTV3#http://101.35.240.114:88/live.php?id=CCTV3
 CCTV4 中文国际,http://110.42.63.57:158/live/ysp.php?id=CCTV4
 CCTV5 体育,http://110.42.63.57:158/live/ysp.php?id=CCTV5#http://101.35.240.114:88/live.php?id=CCTV5
