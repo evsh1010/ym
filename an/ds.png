@@ -65,6 +65,7 @@ CHC动作电影,http://101.35.240.114:88/live.php?id=CHC动作电影
 #EXTVLCOPT:http-user-agent=
 
 
+北京卫视,http://124.222.114.206/bjtv.php?id=bjws
 北京卫视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjws
 东方卫视,http://cdn.jdshipin.com/kkxw.php?id=1
 江苏卫视,http://xxwx.yoesun.com/xxw/江苏网.php?id=jsws
