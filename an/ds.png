@@ -63,15 +63,8 @@ CHC动作电影,http://101.35.240.114:88/live.php?id=CHC动作电影
 凤凰资讯,http://101.35.240.114:88/phenix.php?id=fhzx
 凤凰中文,http://101.35.240.114:88/phenix.php?id=fhzw
 凤凰香港,http://101.35.240.114:88/phenix.php?id=fhhk
-
-#EXTVLCOPT:http-user-agent=aliplayer
-
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
 #EXTVLCOPT:http-user-agent=
 
-
-
-🔴 卫视,#genre#
 北京卫视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjws
 东方卫视,http://cdn.jdshipin.com/kkxw.php?id=1
 江苏卫视,http://xxwx.yoesun.com/xxw/江苏网.php?id=jsws
