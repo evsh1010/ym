@@ -31,9 +31,12 @@ CCTV6 电影抖音,video://https://live.douyin.com/cctv6media.
 
 🌀 央视•卫视,#genre#
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
-CCTV1 综合,http://110.42.63.57:158/live/ysp.php?id=CCTV1#http://101.35.240.114:88/live.php?id=CCTV1#http://2099.tv12.xyz/182_1760843001341.m3u8
-CCTV2 财经,http://110.42.63.57:158/live/ysp.php?id=CCTV2#http://8.138.7.223/tv/cctv2.php#http://2099.tv12.xyz/183_1760843001341.m3u8
-CCTV3 综艺,http://110.42.63.57:158/live/ysp.php?id=CCTV3#http://101.35.240.114:88/live.php?id=CCTV3#http://2099.tv12.xyz/184_1760843001341.m3u8
+CCTV1 综合,http://110.42.63.57:158/live/ysp.php?id=CCTV1#http://101.35.240.114:88/live.php?id=CCTV1
+CCTV1 综合,http://2099.tv12.xyz/182_1760843001341.m3u8#http://2099.tv12.xyz/262_1760844212130.m3u8
+CCTV2 财经,http://110.42.63.57:158/live/ysp.php?id=CCTV2#http://8.138.7.223/tv/cctv2.php
+CCTV2 财经,http://2099.tv12.xyz/183_1760843001341.m3u8#http://2099.tv12.xyz/263_1760844212130.m3u8
+CCTV3 综艺,http://110.42.63.57:158/live/ysp.php?id=CCTV3#http://101.35.240.114:88/live.php?id=CCTV3
+CCTV3 综艺,http://2099.tv12.xyz/184_1760843001341.m3u8#http://2099.tv12.xyz/264_1760844212130.m3u8
 CCTV4 中文国际,http://110.42.63.57:158/live/ysp.php?id=CCTV4#http://2099.tv12.xyz/185_1760843001341.m3u8
 CCTV5 体育,http://110.42.63.57:158/live/ysp.php?id=CCTV5#http://101.35.240.114:88/live.php?id=CCTV5#http://2099.tv12.xyz/188_1760843001341.m3u8
 CCTV5+ 体育赛事,http://110.42.63.57:158/live/ysp.php?id=CCTV5p#http://2099.tv12.xyz/189_1760843001341.m3u8
@@ -65,7 +68,7 @@ CGTN 纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://engli
 重温经典,http://101.35.240.114:88/live.php?id=重温经典
 CHC动作电影,http://101.35.240.114:88/live.php?id=CHC动作电影
 
-dCHC影迷电影,http://2099.tv12.xyz/259_1760844212130.m3u8
+CHC影迷电影,http://2099.tv12.xyz/259_1760844212130.m3u8
 CHC动作电影,http://2099.tv12.xyz/260_1760844212130.m3u8
 CHC家庭影院,http://2099.tv12.xyz/261_1760844212130.m3u8
 
@@ -78,21 +81,25 @@ CHC家庭影院,http://2099.tv12.xyz/261_1760844212130.m3u8
 
 北京卫视,http://124.222.114.206/bjtv.php?id=bjws
 北京卫视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjws
+东方卫视,http://2099.tv12.xyz/213_1760844212130.m3u8
 东方卫视,http://cdn.jdshipin.com/kkxw.php?id=1
-江苏卫视,
+江苏卫视,http://2099.tv12.xyz/214_1760844212130.m3u8
 浙江卫视,https://zwebl02.cztv.com/live/channel011080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-ec2283c392de5aa07c72e770576478bb
 浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 浙江卫视,https://play-qukan.cztv.com/live/1758879019692345.m3u8
 浙江卫视,http://106.53.99.30/tv/api.php?id=zjws4k
 湖南卫视,http://106.53.99.30/tv/api.php?id=hnws4k
-广东卫视,
+广东卫视,http://2099.tv12.xyz/215_1760844212130.m3u8
 深圳卫视,https://cdn3.163189.xyz/163189/szws4k
 深圳卫视,http://nn.7x9d.cn/深圳最新.php?id=szws
 海南卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
 三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
-东南卫视,
+东南卫视,http://2099.tv12.xyz/223_1760844212130.m3u8
 海峡卫视,http://8.138.7.223/tv/hxws.m3u8
 天津卫视,
+安徽卫视,
+江西卫视,http://2099.tv12.xyz/216_1760844212130.m3u8
+湖北卫视,http://2099.tv12.xyz/220_1760844212130.m3u8
 四川卫视,
 云南卫视,
 贵州卫视,
@@ -105,6 +112,7 @@ CHC家庭影院,http://2099.tv12.xyz/261_1760844212130.m3u8
 黑龙江卫视,
 广西卫视,
 山西卫视,http://www.lwfz.fun:8800/udp/239.16.10.24:2000
+陕西卫视,http://2099.tv12.xyz/218_1760844212130.m3u8
 宁夏卫视,
 甘肃卫视,
 青海卫视,
