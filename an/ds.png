@@ -18,6 +18,26 @@
 
 🌀 央视•卫视,#genre#
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
+CCTV1 综合,http://livenico.sheng17.site/php/aikan.php?id=cctv1&/PLTV/hls.smil.m3u8
+CCTV2 财经,http://livenico.sheng17.site/php/aikan.php?id=cctv2&/PLTV/hls.smil.m3u8
+CCTV3 综艺,http://livenico.sheng17.site/php/aikan.php?id=cctv3&/PLTV/hls.smil.m3u8
+CCTV4 中文国际,http://livenico.sheng17.site/php/aikan.php?id=cctv4&/PLTV/hls.smil.m3u8
+CCTV5 体育,http://livenico.sheng17.site/php/aikan.php?id=cctv5&/PLTV/hls.smil.m3u8
+CCTV5+ 体育赛事,http://livenico.sheng17.site/php/aikan.php?id=cctv5p2&/PLTV/hls.smil.m3u8
+CCTV6 电影,http://livenico.sheng17.site/php/aikan.php?id=cctv6&/PLTV/hls.smil.m3u8
+CCTV7 国防军事,http://livenico.sheng17.site/php/aikan.php?id=cctv7&/PLTV/hls.smil.m3u8
+CCTV8 电视剧,http://livenico.sheng17.site/php/aikan.php?id=cctv8&/PLTV/hls.smil.m3u8
+CCTV9 纪录,http://livenico.sheng17.site/php/aikan.php?id=cctv9&/PLTV/hls.smil.m3u8
+CCTV10 科教,http://livenico.sheng17.site/php/aikan.php?id=cctv10&/PLTV/hls.smil.m3u8
+CCTV11 戏曲,http://livenico.sheng17.site/php/aikan.php?id=cctv11&/PLTV/hls.smil.m3u8
+CCTV12 社会与法,http://livenico.sheng17.site/php/aikan.php?id=cctv12&/PLTV/hls.smil.m3u8
+CCTV13 新闻,http://livenico.sheng17.site/php/aikan.php?id=cctv13&/PLTV/hls.smil.m3u8
+CCTV14 少儿,http://livenico.sheng17.site/php/aikan.php?id=cctv14&/PLTV/hls.smil.m3u8
+CCTV15 音乐,http://livenico.sheng17.site/php/aikan.php?id=cctv15&/PLTV/hls.smil.m3u8
+CCTV17 农业农村,http://livenico.sheng17.site/php/aikan.php?id=cctv17&/PLTV/hls.smil.m3u8
+CCTV4 中文国际欧洲,http://livenico.sheng17.site/php/aikan.php?id=cctv4o&/PLTV/hls.smil.m3u8
+CCTV4 中文国际美洲,http://livenico.sheng17.site/php/aikan.php?id=cctv4a&/PLTV/hls.smil.m3u8
+
 CCTV1 综合,http://101.35.240.114:88/live.php?id=CCTV1
 CCTV1 综合,http://2099.tv12.xyz/182_1760843001341.m3u8
 CCTV1 综合,http://2099.tv12.xyz/262_1760844212130.m3u8
