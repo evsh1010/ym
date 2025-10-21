@@ -5,7 +5,6 @@
 内蒙古少儿,http://play1-qk.nmtv.cn/live/1686560464515368.m3u8
 内蒙古少儿,http://livenico.sheng17.site/php/内蒙古.php?id=nmse
 卡酷少儿,http://124.222.114.206/bjtv.php?id=bjkk
-卡酷少儿,http://livenico.sheng17.site/php/北京4k.php?id=bjkk
 卡酷少儿,http://xxwx.yoesun.com/xxw/北京网.php?id=bjkk
 海南少儿,http://nn.7x9d.cn/地方台8563/海南.php?id=sepd
 哈哈炫动,http://cdn.jdshipin.com/kkxw.php?id=9
@@ -44,6 +43,7 @@ CCTV4 中文国际欧洲,http://livenico.sheng17.site/php/aikan.php?id=cctv4o&/P
 CCTV4 中文国际美洲,http://livenico.sheng17.site/php/aikan.php?id=cctv4a&/PLTV/hls.smil.m3u8
 CGTN 英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 CGTN 纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
+
 
 CCTV1 综合,http://101.35.240.114:88/live.php?id=CCTV1
 CCTV1 综合,http://2099.tv12.xyz/182_1760843001341.m3u8
@@ -114,9 +114,6 @@ CHC动作电影,http://101.35.240.114:88/live.php?id=CHC动作电影
 五星体育,http://101.35.240.114:88/live.php?id=五星体育
 #EXTVLCOPT:http-user-agent=
 
-
-东方卫视,http://livenico.sheng17.site/php/aikan.php?id=dfws&/PLTV/hls.smil.m3u8
-东方卫视,http://livenico.sheng17.site/php/aikan.php?id=dfws2&/PLTV/hls.smil.m3u8
 江西卫视,http://livenico.sheng17.site/php/aikan.php?id=jxws&/PLTV/hls.smil.m3u8
 江苏卫视,http://livenico.sheng17.site/php/aikan.php?id=jsws&/PLTV/hls.smil.m3u8
 广东卫视,http://livenico.sheng17.site/php/aikan.php?id=gdws&/PLTV/hls.smil.m3u8
