@@ -9,6 +9,7 @@
 海南少儿,http://nn.7x9d.cn/地方台8563/海南.php?id=sepd
 哈哈炫动,http://cdn.jdshipin.com/kkxw.php?id=9
 优漫卡通,https://cdn.u2186522.nyat.app:58138/php/江苏荔枝.php?id=ymkt
+优漫卡通,http://xxwx.yoesun.com/xxw/江苏网.php?id=ymkt
 龙华卡通,https://cdn8.163189.xyz/live/lhkt/stream.m3u8
 奇光动漫,https://live.ottiptv.cc/douyu/12560807
 海绵宝宝,https://live.ottiptv.cc/douyu/3949681
@@ -78,6 +79,8 @@ CHC动作电影,http://101.35.240.114:88/live.php?id=CHC动作电影
 #EXTVLCOPT:http-user-agent=
 
 
+
+CHC家庭影院,http://livenico.sheng17.site/php/aikan.php?id=chcjtyy&/PLTV/hls.smil.m3u8
 江西卫视,http://livenico.sheng17.site/php/aikan.php?id=jxws&/PLTV/hls.smil.m3u8
 江苏卫视,http://livenico.sheng17.site/php/aikan.php?id=jsws&/PLTV/hls.smil.m3u8
 广东卫视,http://livenico.sheng17.site/php/aikan.php?id=gdws&/PLTV/hls.smil.m3u8
@@ -85,7 +88,6 @@ CHC动作电影,http://101.35.240.114:88/live.php?id=CHC动作电影
 东南卫视,http://livenico.sheng17.site/php/aikan.php?id=dnws&/PLTV/hls.smil.m3u8
 海峡卫视,http://livenico.sheng17.site/php/aikan.php?id=hxws&/PLTV/hls.smil.m3u8
 陕西卫视,http://livenico.sheng17.site/php/aikan.php?id=sxws&/PLTV/hls.smil.m3u8
-CHC家庭影院,http://livenico.sheng17.site/php/aikan.php?id=chcjtyy&/PLTV/hls.smil.m3u8
 
 
 
@@ -99,6 +101,7 @@ CHC家庭影院,http://livenico.sheng17.site/php/aikan.php?id=chcjtyy&/PLTV/hls.
 浙江卫视,http://106.53.99.30/tv/api.php?id=zjws4k
 湖南卫视,http://106.53.99.30/tv/api.php?id=hnws4k
 江苏卫视,https://cdn.u2186522.nyat.app:58138/php/江苏荔枝.php?id=jsws
+江苏卫视,http://xxwx.yoesun.com/xxw/江苏网.php?id=jsws
 深圳卫视,https://cdn3.163189.xyz/163189/szws4k
 深圳卫视,http://nn.7x9d.cn/深圳最新.php?id=szws
 海南卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
@@ -111,6 +114,7 @@ CHC家庭影院,http://livenico.sheng17.site/php/aikan.php?id=chcjtyy&/PLTV/hls.
 贵州卫视,
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 河南卫视,http://livenico.sheng17.site/php/河南.php?id=hnws
+河南卫视,http://xxwx.yoesun.com/xxw/河南网.php?id=hnws
 河北卫视,http://livenico.sheng17.site/php/河北.php?id=1
 辽宁卫视,
 吉林卫视,
@@ -147,6 +151,7 @@ CHC家庭影院,http://livenico.sheng17.site/php/aikan.php?id=chcjtyy&/PLTV/hls.
 深圳电视剧,http://nn.7x9d.cn/深圳最新.php?id=szdsj
 广州南国都市,http://tencentplaygzrb01.gztv.com/live/nanguodushi.m3u8
 江苏影视,https://cdn.u2186522.nyat.app:58138/php/江苏荔枝.php?id=jsys
+江苏影视,http://xxwx.yoesun.com/xxw/江苏网.php?id=jsys
 苏州电影娱乐,https://live-auth.51kandianshi.com/szgd/csztv4.m3u8
 浙江教科影视,https://zwebl02.cztv.com/live/channel041080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-9c4515bba4ac0ad426356b260449477f
 浙江教科影视,https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
