@@ -40,7 +40,6 @@ CCTV13 新闻,http://livenico.sheng17.site/php/aikan.php?id=cctv13&/PLTV/hls.smi
 CCTV14 少儿,http://livenico.sheng17.site/php/aikan.php?id=cctv14&/PLTV/hls.smil.m3u8
 CCTV15 音乐,http://livenico.sheng17.site/php/aikan.php?id=cctv15&/PLTV/hls.smil.m3u8
 CCTV16 奥林匹克,http://110.42.63.57:158/live/ysp.php?id=CCTV16
-CCTV16 奥林匹克,https://zby.130519.xyz/PLTV/11/224/3221226120/index.m3u8#https://17.130519.xyz/PLTV/11/224/3221226120/index.m3u8
 CCTV17 农业农村,http://livenico.sheng17.site/php/aikan.php?id=cctv17&/PLTV/hls.smil.m3u8
 
 CCTV2 财经,http://8.138.7.223/tv/cctv2.php
@@ -99,8 +98,6 @@ CHC家庭影院,http://livenico.sheng17.site/php/aikan.php?id=chcjtyy&/PLTV/hls.
 浙江卫视,https://zwebl02.cztv.com/live/channel011080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-ec2283c392de5aa07c72e770576478bb
 浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 浙江卫视,https://play-qukan.cztv.com/live/1758879019692345.m3u8
-浙江卫视,http://106.53.99.30/tv/api.php?id=zjws4k
-湖南卫视,http://106.53.99.30/tv/api.php?id=hnws4k
 江苏卫视,https://cdn.u2186522.nyat.app:58138/php/江苏荔枝.php?id=jsws
 江苏卫视,http://xxwx.yoesun.com/xxw/江苏网.php?id=jsws
 深圳卫视,https://cdn3.163189.xyz/163189/szws4k
