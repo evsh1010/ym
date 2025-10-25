@@ -91,9 +91,8 @@ CHC家庭影院,http://livenico.sheng17.site/php/aikan.php?id=chcjtyy&/PLTV/hls.
 海峡卫视,http://livenico.sheng17.site/php/aikan.php?id=hxws&/PLTV/hls.smil.m3u8
 陕西卫视,http://livenico.sheng17.site/php/aikan.php?id=sxws&/PLTV/hls.smil.m3u8
 
-
-北京卫视,http://124.222.114.206/bjtv.php?id=bjws
 北京卫视,http://livenico.sheng17.site/php/北京4k.php?id=bjws
+北京卫视,http://124.222.114.206/bjtv.php?id=bjws
 北京卫视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjws
 东方卫视,http://cdn.jdshipin.com/kkxw.php?id=1
 浙江卫视,https://zwebl02.cztv.com/live/channel011080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-ec2283c392de5aa07c72e770576478bb
@@ -112,8 +111,8 @@ CHC家庭影院,http://livenico.sheng17.site/php/aikan.php?id=chcjtyy&/PLTV/hls.
 四川卫视,
 云南卫视,
 贵州卫视,
-河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 河南卫视,http://livenico.sheng17.site/php/河南.php?id=hnws
+河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 河南卫视,http://xxwx.yoesun.com/xxw/河南网.php?id=hnws
 河北卫视,http://livenico.sheng17.site/php/河北.php?id=1
 辽宁卫视,
@@ -151,8 +150,8 @@ CCTV13 新闻,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=6088074
 CCTV14 少儿,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=624878440
 CCTV15 音乐,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=673168223
 CCTV17 农业农村,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=673168256
-CGTN 英语,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=609006487
-CGTN 记录,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=609017205
+CGTN 英语,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=609017205
+CGTN 纪录,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=609006487
 东方卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=651632648
 江苏卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=623899368
 广东卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=608831231
