@@ -46,12 +46,14 @@ CCTV16 奥林匹克,http://110.42.63.57:158/live/ysp.php?id=CCTV16
 CCTV17 农业农村,http://livenico.sheng17.site/php/aikan.php?id=cctv17&/PLTV/hls.smil.m3u8
 
 
+
 CCTV2 财经,http://8.138.7.223/tv/cctv2.php
 CCTV1 综合,http://106.53.99.30/tv/cctv1.php
 CCTV2 财经,http://106.53.99.30/tv/cctv2-1.php
 CCTV13 新闻,http://106.53.99.30/tv/cctv13.php
 CGTN 英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 CGTN 纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
+
 
 
 CCTV1 综合,http://101.35.240.114:88/live.php?id=CCTV1
@@ -83,6 +85,7 @@ CHC动作电影,http://101.35.240.114:88/live.php?id=CHC动作电影
 #EXTVLCOPT:http-user-agent=
 
 
+
 CHC家庭影院,http://livenico.sheng17.site/php/aikan.php?id=chcjtyy&/PLTV/hls.smil.m3u8
 江西卫视,http://livenico.sheng17.site/php/aikan.php?id=jxws&/PLTV/hls.smil.m3u8
 江苏卫视,http://livenico.sheng17.site/php/aikan.php?id=jsws&/PLTV/hls.smil.m3u8
@@ -91,6 +94,7 @@ CHC家庭影院,http://livenico.sheng17.site/php/aikan.php?id=chcjtyy&/PLTV/hls.
 东南卫视,http://livenico.sheng17.site/php/aikan.php?id=dnws&/PLTV/hls.smil.m3u8
 海峡卫视,http://livenico.sheng17.site/php/aikan.php?id=hxws&/PLTV/hls.smil.m3u8
 陕西卫视,http://livenico.sheng17.site/php/aikan.php?id=sxws&/PLTV/hls.smil.m3u8
+
 
 
 CCTV1 综合,http://110.42.63.57:158/live/miguHD.php?id=CCTV1
@@ -133,10 +137,57 @@ CHC影迷电影,http://110.42.63.57:158/live/miguHD.php?id=CHC影迷电影
 内蒙古卫视,http://110.42.63.57:158/live/miguHD.php?id=内蒙古卫视
 兵团卫视,http://110.42.63.57:158/live/miguHD.php?id=兵团卫视
 大湾区卫视,http://110.42.63.57:158/live/miguHD.php?id=大湾区卫视
-中国农林卫视,http://110.42.63.57:158/live/miguHD.php?id=中国农林卫视
+农林卫视,http://110.42.63.57:158/live/miguHD.php?id=中国农林卫视
 CETV1,http://110.42.63.57:158/live/miguHD.php?id=CETV1
 CETV2,http://110.42.63.57:158/live/miguHD.php?id=CETV2
 CETV4,http://110.42.63.57:158/live/miguHD.php?id=CETV4
+
+
+
+CCTV1 综合,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=608807420
+CCTV2 财经,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=631780532
+CCTV3 综艺,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=624878271
+CCTV4 中文国际,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=631780421
+CCTV4 中文国际 欧洲,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=608807419
+CCTV4 中文国际 美洲,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=608807416
+CCTV5 体育,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=641886683
+CCTV5+ 体育赛事,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=641886773
+CCTV6 电影,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=624878396
+CCTV7 国防军事,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=673168121
+CCTV8 电视剧,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=624878356
+CCTV9 纪录,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=673168140
+CCTV10 科教,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=624878405
+CCTV11 戏曲,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=667987558
+CCTV12 社会与法,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=673168185
+CCTV13 新闻,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=608807423
+CCTV14 少儿,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=624878440
+CCTV15 音乐,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=673168223
+CCTV17 农业农村,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=673168256
+CGTN 英语,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=609017205
+CGTN 纪录,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=609006487
+东方卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=651632648
+江苏卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=623899368
+广东卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=608831231
+江西卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=783847495
+河南卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=790187291
+陕西卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=738910838
+湖北卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=947472496
+吉林卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=947472500
+青海卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=947472506
+东南卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=849116810
+海南卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=947472502
+海峡卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=849119120
+兵团卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=956923145
+辽宁卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=630291707
+CHC影迷电影,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=952383261
+东方影视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=617290047
+江苏影视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=626064697
+优漫卡通,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=626064703
+嘉佳卡通,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=614952364
+CETV1,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=923287154
+CETV2,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=923287211
+CETV4,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=923287339
+
 
 
 北京卫视,http://livenico.sheng17.site/php/北京4k.php?id=bjws
