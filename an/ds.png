@@ -30,6 +30,7 @@ CCTV2,http://110.42.37.69:6688/live/live.php?token=reOPfGMpMD&id=cctv2
 CCTV3,http://110.42.37.69:6688/live/live.php?token=reOPfGMpMD&id=cctv3
 CCTV4,http://110.42.37.69:6688/live/live.php?token=reOPfGMpMD&id=cctv4
 CCTV5,http://110.42.37.69:6688/live/live.php?token=reOPfGMpMD&id=cctv5
+CCTV5+,http://110.42.37.69:6688/live/live.php?token=reOPfGMpMD&id=cctv5p
 CCTV6,http://110.42.37.69:6688/live/live.php?token=reOPfGMpMD&id=cctv6
 CCTV7,http://110.42.37.69:6688/live/live.php?token=reOPfGMpMD&id=cctv7
 CCTV8,http://110.42.37.69:6688/live/live.php?token=reOPfGMpMD&id=cctv8
@@ -40,10 +41,8 @@ CCTV12,http://110.42.37.69:6688/live/live.php?token=reOPfGMpMD&id=cctv12
 CCTV13,http://110.42.37.69:6688/live/live.php?token=reOPfGMpMD&id=cctv13
 CCTV14,http://110.42.37.69:6688/live/live.php?token=reOPfGMpMD&id=cctv14
 CCTV15,http://110.42.37.69:6688/live/live.php?token=reOPfGMpMD&id=cctv15
+CCTV16,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv16hd&apiKey=61896318c1eb1cf4c83d85c868815d68
 CCTV17,http://110.42.37.69:6688/live/live.php?token=reOPfGMpMD&id=cctv17
-
-
-
 
 CCTV1,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv1hd&apiKey=61896318c1eb1cf4c83d85c868815d68
 CCTV2,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv2hd&apiKey=61896318c1eb1cf4c83d85c868815d68
@@ -60,8 +59,7 @@ CCTV11,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv11hd&apiKey=61896318c1eb1cf4c
 CCTV12,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv12hd&apiKey=61896318c1eb1cf4c83d85c868815d68
 CCTV13,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv13hd&apiKey=61896318c1eb1cf4c83d85c868815d68
 CCTV14,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv14hd&apiKey=61896318c1eb1cf4c83d85c868815d68
-CCTV15,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv15hd&apiKey=61896318c1eb1cf4c83d85c868815d68
-CCTV16,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv16hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV15,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv15hd&apiKey=61896318c1eb1cf4c83d85c868815d6
 CCTV17,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv17hd&apiKey=61896318c1eb1cf4c83d85c868815d68
 
 
