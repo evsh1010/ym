@@ -23,6 +23,27 @@
 
 
 🌀 央视•卫视,#genre#
+CCTV1,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv1hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV2,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv2hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV3,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv3hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV4,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv4hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV5,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv5hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV5+,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv5p&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV6,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv6hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV7,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv7hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV8,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv8hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV9,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv9hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV10,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv10hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV11,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv11hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV12,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv12hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV13,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv13hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV14,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv14hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV15,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv15hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV16,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv16hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+CCTV17,http://vapi.91kds.cc/live1/dsdq.m3u8?id=cctv17hd&apiKey=61896318c1eb1cf4c83d85c868815d68
+
+
+
 CCTV1 综合,http://livenico.sheng17.site/php/aikan.php?id=cctv1&/PLTV/hls.smil.m3u8
 CCTV2 财经,http://livenico.sheng17.site/php/aikan.php?id=cctv2&/PLTV/hls.smil.m3u8
 CCTV3 综艺,http://livenico.sheng17.site/php/aikan.php?id=cctv3&/PLTV/hls.smil.m3u8
