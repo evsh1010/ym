@@ -23,7 +23,6 @@
 
 
 🌀 央视•卫视,#genre#
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
 CCTV1 综合,http://livenico.sheng17.site/php/aikan.php?id=cctv1&/PLTV/hls.smil.m3u8
 CCTV2 财经,http://livenico.sheng17.site/php/aikan.php?id=cctv2&/PLTV/hls.smil.m3u8
 CCTV3 综艺,http://livenico.sheng17.site/php/aikan.php?id=cctv3&/PLTV/hls.smil.m3u8
@@ -56,6 +55,7 @@ CGTN 纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://engli
 
 
 
+#EXTVLCOPT:http-user-agent=AptvPlayer-UA
 CCTV1 综合,http://101.35.240.114:88/live.php?id=CCTV1
 CCTV3 综艺,http://101.35.240.114:88/live.php?id=CCTV3
 CCTV5 体育,http://101.35.240.114:88/live.php?id=CCTV5
