@@ -49,15 +49,14 @@ CCTV14 少儿,http://livenico.sheng17.site/php/aikan.php?id=cctv14&/PLTV/hls.smi
 CCTV15 音乐,http://livenico.sheng17.site/php/aikan.php?id=cctv15&/PLTV/hls.smil.m3u8
 CCTV16 奥林匹克,http://110.42.63.57:158/live/ysp.php?id=CCTV16
 CCTV17 农业农村,http://livenico.sheng17.site/php/aikan.php?id=cctv17&/PLTV/hls.smil.m3u8
-
-
-
-CCTV2 财经,http://8.138.7.223/tv/cctv2.php
-CCTV1 综合,http://106.53.99.30/tv/cctv1.php
-CCTV2 财经,http://106.53.99.30/tv/cctv2-1.php
-CCTV13 新闻,http://106.53.99.30/tv/cctv13.php
-CGTN 英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
-CGTN 纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
+CHC家庭影院,http://livenico.sheng17.site/php/aikan.php?id=chcjtyy&/PLTV/hls.smil.m3u8
+江苏卫视,http://livenico.sheng17.site/php/aikan.php?id=jsws&/PLTV/hls.smil.m3u8
+广东卫视,http://livenico.sheng17.site/php/aikan.php?id=gdws&/PLTV/hls.smil.m3u8
+广东卫视,http://livenico.sheng17.site/php/aikan.php?id=gdws2&/PLTV/hls.smil.m3u8
+江西卫视,http://livenico.sheng17.site/php/aikan.php?id=jxws&/PLTV/hls.smil.m3u8
+东南卫视,http://livenico.sheng17.site/php/aikan.php?id=dnws&/PLTV/hls.smil.m3u8
+海峡卫视,http://livenico.sheng17.site/php/aikan.php?id=hxws&/PLTV/hls.smil.m3u8
+陕西卫视,http://livenico.sheng17.site/php/aikan.php?id=sxws&/PLTV/hls.smil.m3u8
 
 
 
@@ -89,17 +88,6 @@ CHC动作电影,http://101.35.240.114:88/live.php?id=CHC动作电影
 凤凰香港,http://101.35.240.114:88/phenix.php?id=fhhk
 五星体育,http://101.35.240.114:88/live.php?id=五星体育
 #EXTVLCOPT:http-user-agent=
-
-
-
-CHC家庭影院,http://livenico.sheng17.site/php/aikan.php?id=chcjtyy&/PLTV/hls.smil.m3u8
-江西卫视,http://livenico.sheng17.site/php/aikan.php?id=jxws&/PLTV/hls.smil.m3u8
-江苏卫视,http://livenico.sheng17.site/php/aikan.php?id=jsws&/PLTV/hls.smil.m3u8
-广东卫视,http://livenico.sheng17.site/php/aikan.php?id=gdws&/PLTV/hls.smil.m3u8
-广东卫视,http://livenico.sheng17.site/php/aikan.php?id=gdws2&/PLTV/hls.smil.m3u8
-东南卫视,http://livenico.sheng17.site/php/aikan.php?id=dnws&/PLTV/hls.smil.m3u8
-海峡卫视,http://livenico.sheng17.site/php/aikan.php?id=hxws&/PLTV/hls.smil.m3u8
-陕西卫视,http://livenico.sheng17.site/php/aikan.php?id=sxws&/PLTV/hls.smil.m3u8
 
 
 
@@ -186,7 +174,12 @@ CETV2,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=923287211
 CETV4,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=923287339
 
 
-
+CCTV2 财经,http://8.138.7.223/tv/cctv2.php
+CCTV1 综合,http://106.53.99.30/tv/cctv1.php
+CCTV2 财经,http://106.53.99.30/tv/cctv2-1.php
+CCTV13 新闻,http://106.53.99.30/tv/cctv13.php
+CGTN 英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
+CGTN 纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 北京卫视,http://livenico.sheng17.site/php/北京4k.php?id=bjws
 北京卫视,http://124.222.114.206/bjtv.php?id=bjws
 北京卫视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjws
