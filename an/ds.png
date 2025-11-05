@@ -66,9 +66,11 @@ CCTV15 音乐,http://110.42.63.57:158/live/ysp.php?id=CCTV15
 CCTV16 奥林匹克,http://110.42.63.57:158/live/ysp.php?id=CCTV16
 CCTV17 农业农村,http://110.42.63.57:158/live/ysp.php?id=CCTV17
 🔍零星收集源
-CCTV1 综合,http://106.53.99.30/tv/cctv1.php
-CCTV2 财经,http://106.53.99.30/tv/cctv2-1.php
+CCTV1 综合,http://8.138.7.223/tv/cctv1.php
 CCTV2 财经,http://8.138.7.223/tv/cctv2.php
+CCTV2 新闻,http://8.138.7.223/tv/cctv13.php
+CCTV1 综合,http://106.53.99.30/tv/cctv1.php
+CCTV2 财经,http://106.53.99.30/tv/cctv2.php
 CCTV13 新闻,http://106.53.99.30/tv/cctv13.php
 CGTN 英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 CGTN 纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
@@ -327,6 +329,10 @@ CETV4,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=923287339
 凤凰资讯,https://cdn6.101.qzz.io/163189/fhzx
 凤凰中文,https://cdn6.101.qzz.io/163189/fhzw
 凤凰香港,https://cdn6.101.qzz.io/163189/fhhk
+
+凤凰资讯,http://106.53.99.30/tv/hk.php?id=fhzx
+凤凰中文,http://106.53.99.30/tv/hk.php?id=fhzw
+凤凰香港,http://106.53.99.30/tv/hk.php?id=fhxg
 
 凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
