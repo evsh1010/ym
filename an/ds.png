@@ -163,7 +163,7 @@ CCTV17 农业农村,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=6
 东方卫视,http://106.53.99.30/tv/api.php?id=dfws4k
 湖南卫视,http://106.53.99.30/tv/api.php?id=hnws4k
 江苏卫视,http://106.53.99.30/tv/api.php?id=jsws4k
-深圳卫视,http://106.53.99.30/tv/api.php?id=szws4k
+深圳卫视,http://106.53.99.30/tv/api.php?id=szws
 安徽卫视,http://106.53.99.30/tv/ah.php?id=ahws
 安徽影视,http://106.53.99.30/tv/ah.php?id=ystv
 吉林卫视,http://106.53.99.30/tv/jl.php?id=0001
@@ -343,7 +343,8 @@ CETV4,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=923287339
 凤凰中文,http://r.jdshipin.com/cCCzW
 凤凰香港,http://r.jdshipin.com/yDoTN
 
-中天新闻,http://tw-ty-line-11-1-5.sudatech.store:20319/of-4gtv-4gtv009/index.m3u8?proxy=true
+中天新闻,http://test-al-livepull.migucloud.com/live/hktv-jfhslkdjngnlkdkgjdlkkgjrkltjggrtlmagztxwkks.flv
+中天新闻,https://smt.passwdword.xyz/Smart.php?id=ctinews
 
 澳门莲花,http://live-hls.macaulotustv.com/lotustv/macaulotustv.m3u8$官网源
 
