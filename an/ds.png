@@ -1,6 +1,7 @@
 🌟 少 儿,#genre#
 熊猫直播,https://gcwbndali.v.myalicdn.com/gcwbnd/ipanda1000_2/index.m3u8
 经典动画,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
+CCTV14 少儿,http://106.53.99.30/tv/api.php?id=cctv14
 CCTV14 少儿,http://106.53.99.30/tv/migu.php?id=cctv14
 CCTV14 少儿,http://livenico.sheng17.site/php/aikan.php?id=cctv14&/PLTV/hls.smil.m3u8
 CCTV14 少儿,http://110.42.63.57:158/live/miguHD.php?id=CCTV14
@@ -163,6 +164,9 @@ CCTV17 农业农村,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=6
 湖南卫视,http://106.53.99.30/tv/api.php?id=hnws4k
 江苏卫视,http://106.53.99.30/tv/api.php?id=jsws4k
 深圳卫视,http://106.53.99.30/tv/api.php?id=szws4k
+安徽卫视,http://106.53.99.30/tv/ah.php?id=ahws
+安徽影视,http://106.53.99.30/tv/ah.php?id=ystv
+内蒙古卫视,http://106.53.99.30/tv/nmg.php?id=1
 🔍搜集2
 北京卫视,http://36.99.188.2:2380/js-live-screenshot.gitv.tv/gitv_live/G_BEIJING-4K/G_BEIJING-4K.m3u8
 东方卫视,http://36.99.188.2:2380/js-live-screenshot.gitv.tv/gitv_live/G_DONGFANG-4K/G_DONGFANG-4K.m3u8
