@@ -5,14 +5,12 @@
       "name": "MY TV",
       "type": 0,
       "url": "./ds.png",
-      "ua": "okhttp/3.15",
       "timeout": 5
     },
     {
       "name": "China TV",
       "type": 0,
       "url": "https://live.tv.darwinchow.com/sub/02RrCRiHkSxtoGaNBUg4GZnu2KXHBT/txt",
-      "ua": "okhttp/3.15",
       "timeout": 5
     },
     {
@@ -26,14 +24,12 @@
       "name": "冰茶咪咕",
       "type": 0,
       "url": "https://bc.188766.xyz/?ip=&lunbo=false&huikan=1",
-      "ua": "okhttp/3.15",
       "timeout": 5
     },
     {
       "name": "develop202",
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-      "ua": "okhttp/3.15",
       "timeout": 5
     }
   ],
@@ -951,5 +947,6 @@
   ],
   "ads": ["static-mozai.4gtv.tv"]
 }
+
 
 
