@@ -29,27 +29,29 @@ CCTV14 少儿,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=6248784
 
 🇨🇳 央 视,#genre#
 🔍搜集1
-CCTV1 综合,http://106.53.99.30/tv/api.php?id=cctv1
+CCTV1,http://iptv.666230.xyz/iptv/sxg.php/CCTV-1H265_4000
+CCTV2,http://iptv.666230.xyz/iptv/sxg.php/CCTV-2H265_4000
+CCTV3,http://iptv.666230.xyz/iptv/sxg.php/CCTV-3H265_4000
+CCTV4,http://iptv.666230.xyz/iptv/sxg.php/CCTV-4H265_4000
+CCTV5,http://iptv.666230.xyz/iptv/sxg.php/CCTV-5H265_4000
+CCTV5+,http://iptv.666230.xyz/iptv/sxg.php/CCTV-5plusH265_4000
+CCTV6,http://iptv.666230.xyz/iptv/sxg.php/CCTV-6H265_4000
+CCTV7,http://iptv.666230.xyz/iptv/sxg.php/CCTV-7H265_4000
+CCTV8,http://iptv.666230.xyz/iptv/sxg.php/CCTV-8H265_4000
+CCTV9,http://iptv.666230.xyz/iptv/sxg.php/CCTV-9H265_4000
+CCTV10,http://iptv.666230.xyz/iptv/sxg.php/CCTV-10H265_4000
+CCTV11,http://iptv.666230.xyz/iptv/sxg.php/CCTV-11-H265_4000
+CCTV12,http://iptv.666230.xyz/iptv/sxg.php/CCTV-12H265_4000
+CCTV13,http://iptv.666230.xyz/iptv/sxg.php/CCTV-xw_4000
+CCTV14,http://iptv.666230.xyz/iptv/sxg.php/CCTV-14H265_4000
+CCTV15,http://iptv.666230.xyz/iptv/sxg.php/CCTV-15-yyH265_4000
+CCTV16,http://iptv.666230.xyz/iptv/sxg.php/CCTV-16_4000
+CCTV16,http://iptv.666230.xyz/iptv/sxg.php/CCTV-16-4K_8000
+CCTV17,http://iptv.666230.xyz/iptv/sxg.php/CCTV-17_4000
+CCTV4K,http://iptv.666230.xyz/iptv/sxg.php/ys4Kcq_2000
 
-CCTV2 财经,http://106.53.99.30/tv/api.php?id=cctv2
 
-CCTV3 综艺,http://106.53.99.30/tv/api.php?id=cctv3
-CCTV4 中文国际,http://106.53.99.30/tv/api.php?id=cctv4
-CCTV5 体育,http://106.53.99.30/tv/api.php?id=cctv5
-CCTV5+ 体育赛事,http://106.53.99.30/tv/api.php?id=cctv5p
-CCTV6 电影,http://106.53.99.30/tv/api.php?id=cctv6
-CCTV7 国防军事,http://106.53.99.30/tv/api.php?id=cctv7
-CCTV8 电视剧,http://106.53.99.30/tv/api.php?id=cctv8
-CCTV9 纪录,http://106.53.99.30/tv/api.php?id=cctv9
-CCTV10 科教,http://106.53.99.30/tv/api.php?id=cctv10
-CCTV11 戏曲,http://106.53.99.30/tv/api.php?id=cctv11
-CCTV12 社会与法,http://106.53.99.30/tv/api.php?id=cctv12
-CCTV13 新闻,http://106.53.99.30/tv/api.php?id=cctv13
 
-CCTV14 少儿,http://106.53.99.30/tv/api.php?id=cctv14
-CCTV15 音乐,http://106.53.99.30/tv/api.php?id=cctv15
-CCTV16 奥林匹克,http://106.53.99.30/tv/api.php?id=cctv16
-CCTV17 农业农村,http://106.53.99.30/tv/api.php?id=cctv17
 🔍零星收集源
 CCTV1 综合,http://106.53.99.30/tv/cctv1.php
 CCTV2 财经,http://106.53.99.30/tv/cctv2.php
