@@ -30,9 +30,9 @@ CCTV14 少儿,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=6248784
 🇨🇳 央 视,#genre#
 🔍搜集1
 CCTV1 综合,http://106.53.99.30/tv/api.php?id=cctv1
-CCTV1 综合,http://106.53.99.30/tv/cctv1.php
+
 CCTV2 财经,http://106.53.99.30/tv/api.php?id=cctv2
-CCTV2 财经,http://106.53.99.30/tv/cctv2.php
+
 CCTV3 综艺,http://106.53.99.30/tv/api.php?id=cctv3
 CCTV4 中文国际,http://106.53.99.30/tv/api.php?id=cctv4
 CCTV5 体育,http://106.53.99.30/tv/api.php?id=cctv5
@@ -51,6 +51,8 @@ CCTV15 音乐,http://106.53.99.30/tv/api.php?id=cctv15
 CCTV16 奥林匹克,http://106.53.99.30/tv/api.php?id=cctv16
 CCTV17 农业农村,http://106.53.99.30/tv/api.php?id=cctv17
 🔍零星收集源
+CCTV1 综合,http://106.53.99.30/tv/cctv1.php
+CCTV2 财经,http://106.53.99.30/tv/cctv2.php
 CCTV1 综合,http://8.138.7.223/tv/cctv1.php
 CCTV2 财经,http://8.138.7.223/tv/cctv2.php
 CCTV6 电影,http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0
