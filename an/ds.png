@@ -48,26 +48,6 @@ CCTV15,http://106.53.99.30/tv/api.php?id=cctv15
 CCTV16,http://106.53.99.30/tv/api.php?id=cctv16
 CCTV17,http://106.53.99.30/tv/api.php?id=cctv17
 🔍搜集2
-CCTV1,http://iptv.666230.xyz/iptv/sxg.php/CCTV-1H265_4000
-CCTV2,http://iptv.666230.xyz/iptv/sxg.php/CCTV-2H265_4000
-CCTV3,http://iptv.666230.xyz/iptv/sxg.php/CCTV-3H265_4000
-CCTV4,http://iptv.666230.xyz/iptv/sxg.php/CCTV-4H265_4000
-CCTV5,http://iptv.666230.xyz/iptv/sxg.php/CCTV-5H265_4000
-CCTV5+,http://iptv.666230.xyz/iptv/sxg.php/CCTV-5plusH265_4000
-CCTV6,http://iptv.666230.xyz/iptv/sxg.php/CCTV-6H265_4000
-CCTV7,http://iptv.666230.xyz/iptv/sxg.php/CCTV-7H265_4000
-CCTV8,http://iptv.666230.xyz/iptv/sxg.php/CCTV-8H265_4000
-CCTV9,http://iptv.666230.xyz/iptv/sxg.php/CCTV-9H265_4000
-CCTV10,http://iptv.666230.xyz/iptv/sxg.php/CCTV-10H265_4000
-CCTV11,http://iptv.666230.xyz/iptv/sxg.php/CCTV-11-H265_4000
-CCTV12,http://iptv.666230.xyz/iptv/sxg.php/CCTV-12H265_4000
-CCTV13,http://iptv.666230.xyz/iptv/sxg.php/CCTV-xw_4000
-CCTV14,http://iptv.666230.xyz/iptv/sxg.php/CCTV-14H265_4000
-CCTV15,http://iptv.666230.xyz/iptv/sxg.php/CCTV-15-yyH265_4000
-CCTV16,http://iptv.666230.xyz/iptv/sxg.php/CCTV-16_4000
-CCTV16,http://iptv.666230.xyz/iptv/sxg.php/CCTV-16-4K_8000
-CCTV17,http://iptv.666230.xyz/iptv/sxg.php/CCTV-17_4000
-CCTV4K,http://iptv.666230.xyz/iptv/sxg.php/ys4Kcq_2000
 🔍零星收集源
 CCTV1,http://106.53.99.30/tv/cctv1.php
 CCTV2,http://106.53.99.30/tv/cctv2.php
@@ -76,7 +56,6 @@ CCTV1,http://8.138.7.223/tv/cctv1.php
 CCTV2,http://8.138.7.223/tv/cctv2.php
 CCTV6,http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0
 CCTV13,http://8.138.7.223/tv/cctv13.php
-CCTV16,http://36.99.188.2:2380/js-live-screenshot.gitv.tv/gitv_live/G_CCTV-16-4K/G_CCTV-16-4K.m3u8
 CGTN 英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 CGTN 纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 
