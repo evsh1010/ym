@@ -1,7 +1,6 @@
 🌟 少 儿,#genre#
 经典动画,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
 CCTV14 少儿,http://106.53.99.30/tv/api.php?id=cctv14
-CCTV14 少儿,http://106.53.99.30/tv/migu.php?id=cctv14
 CCTV14 少儿,http://livenico.sheng17.site/php/aikan.php?id=cctv14&/PLTV/hls.smil.m3u8
 CCTV14 少儿,http://110.42.63.57:158/live/miguHD.php?id=CCTV14
 CCTV14 少儿,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=624878440
@@ -60,26 +59,6 @@ CCTV16 奥林匹克,http://36.99.188.2:2380/js-live-screenshot.gitv.tv/gitv_live
 CGTN 英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 CGTN 纪录,https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8#https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 🔍咪咕®1
-CCTV1 综合,http://106.53.99.30/tv/migu.php?id=cctv1
-CCTV2 财经,http://106.53.99.30/tv/migu.php?id=cctv2
-CCTV3 综艺,http://106.53.99.30/tv/migu.php?id=cctv3
-CCTV4 中文国际,http://106.53.99.30/tv/migu.php?id=cctv4
-CCTV4 中文国际 欧洲,http://106.53.99.30/tv/migu.php?id=cctv4o
-CCTV4 中文国际 美洲,http://106.53.99.30/tv/migu.php?id=cctv4a
-CCTV5 体育,http://106.53.99.30/tv/migu.php?id=cctv5
-CCTV5+ 体育赛事,http://106.53.99.30/tv/migu.php?id=cctv5p
-CCTV6 电影,http://106.53.99.30/tv/migu.php?id=cctv6
-CCTV7 国防军事,http://106.53.99.30/tv/migu.php?id=cctv7
-CCTV8 电视剧,http://106.53.99.30/tv/migu.php?id=cctv8
-CCTV9 纪录,http://106.53.99.30/tv/migu.php?id=cctv9
-CCTV10 科教,http://106.53.99.30/tv/migu.php?id=cctv10
-CCTV11 戏曲,http://106.53.99.30/tv/migu.php?id=cctv11
-CCTV12 社会与法,http://106.53.99.30/tv/migu.php?id=cctv12
-CCTV13 新闻,http://106.53.99.30/tv/migu.php?id=cctv13
-CCTV14 少儿,http://106.53.99.30/tv/migu.php?id=cctv14
-CCTV15 音乐,http://106.53.99.30/tv/migu.php?id=cctv15
-CCTV17 农业农村,http://106.53.99.30/tv/migu.php?id=cctv17
-🔍咪咕®2
 CCTV1 综合,http://livenico.sheng17.site/php/aikan.php?id=cctv1&/PLTV/hls.smil.m3u8
 CCTV2 财经,http://livenico.sheng17.site/php/aikan.php?id=cctv2&/PLTV/hls.smil.m3u8
 CCTV3 综艺,http://livenico.sheng17.site/php/aikan.php?id=cctv3&/PLTV/hls.smil.m3u8
@@ -99,7 +78,7 @@ CCTV13 新闻,http://livenico.sheng17.site/php/aikan.php?id=cctv13&/PLTV/hls.smi
 CCTV14 少儿,http://livenico.sheng17.site/php/aikan.php?id=cctv14&/PLTV/hls.smil.m3u8
 CCTV15 音乐,http://livenico.sheng17.site/php/aikan.php?id=cctv15&/PLTV/hls.smil.m3u8
 CCTV17 农业农村,http://livenico.sheng17.site/php/aikan.php?id=cctv17&/PLTV/hls.smil.m3u8
-🔍咪咕®3
+🔍咪咕®2
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 CCTV1 综合,http://101.35.240.114:88/live.php?id=CCTV1
 CCTV3 综艺,http://101.35.240.114:88/live.php?id=CCTV3
@@ -111,7 +90,7 @@ CCTV12 社会与法,http://101.35.240.114:88/live.php?id=CCTV12
 CCTV14 少儿,http://101.35.240.114:88/live.php?id=CCTV14
 CCTV16 奥林匹克,http://101.35.240.114:88/live.php?id=CCTV16
 #EXTVLCOPT:http-user-agent=
-🔍咪咕®4
+🔍咪咕®3
 CCTV1 综合,http://110.42.63.57:158/live/miguHD.php?id=CCTV1
 CCTV2 财经,http://110.42.63.57:158/live/miguHD.php?id=CCTV2
 CCTV3 综艺,http://110.42.63.57:158/live/miguHD.php?id=CCTV3
@@ -131,7 +110,7 @@ CCTV13 新闻,http://110.42.63.57:158/live/miguHD.php?id=CCTV13
 CCTV14 少儿,http://110.42.63.57:158/live/miguHD.php?id=CCTV14
 CCTV15 音乐,http://110.42.63.57:158/live/miguHD.php?id=CCTV15
 CCTV17 农业农村,http://110.42.63.57:158/live/miguHD.php?id=CCTV17
-🔍咪咕®5
+🔍咪咕®4
 CCTV1 综合,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=608807420
 CCTV2 财经,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=631780532
 CCTV3 综艺,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=624878271
@@ -197,19 +176,6 @@ CCTV17 农业农村,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=6
 延边卫视,https://stream1.freetv.fun/yan-bian-wei-shi-29.m3u8
 西藏卫视,http://php.jdshipin.com:8880/xztv.php?id=ws#http://xxwx.yoesun.com/xxw/西藏网.php?id=ws
 🔍咪咕®1
-东方卫视,http://106.53.99.30/tv/migu.php?id=dfws
-江苏卫视,http://106.53.99.30/tv/migu.php?id=jsws
-江西卫视,http://106.53.99.30/tv/migu.php?id=jxws
-东南卫视,http://106.53.99.30/tv/migu.php?id=dnws
-海峡卫视,http://106.53.99.30/tv/migu.php?id=hxws
-广东卫视,http://106.53.99.30/tv/migu.php?id=gdws
-辽宁卫视,http://106.53.99.30/tv/migu.php?id=lnws
-陕西卫视,http://106.53.99.30/tv/migu.php?id=sxws
-东方影视,http://106.53.99.30/tv/migu.php?id=dfys
-CHC影迷电影,http://106.53.99.30/tv/migu.php?id=chcym
-CHC家庭影院,http://106.53.99.30/tv/migu.php?id=chcjt
-CHC动作电影,http://106.53.99.30/tv/migu.php?id=chcdz
-🔍咪咕®2
 江苏卫视,http://livenico.sheng17.site/php/aikan.php?id=jsws&/PLTV/hls.smil.m3u8
 广东卫视,http://livenico.sheng17.site/php/aikan.php?id=gdws&/PLTV/hls.smil.m3u8
 广东卫视,http://livenico.sheng17.site/php/aikan.php?id=gdws2&/PLTV/hls.smil.m3u8
@@ -218,7 +184,7 @@ CHC动作电影,http://106.53.99.30/tv/migu.php?id=chcdz
 海峡卫视,http://livenico.sheng17.site/php/aikan.php?id=hxws&/PLTV/hls.smil.m3u8
 陕西卫视,http://livenico.sheng17.site/php/aikan.php?id=sxws&/PLTV/hls.smil.m3u8
 CHC家庭影院,http://livenico.sheng17.site/php/aikan.php?id=chcjtyy&/PLTV/hls.smil.m3u8
-🔍咪咕®3
+🔍咪咕®2
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 北京卫视,http://101.35.240.114:88/live.php?id=北京卫视
 深圳卫视,http://101.35.240.114:88/live.php?id=深圳卫视
@@ -238,7 +204,7 @@ CHC动作电影,http://101.35.240.114:88/live.php?id=CHC动作电影
 凤凰香港,http://101.35.240.114:88/phenix.php?id=fhhk
 五星体育,http://101.35.240.114:88/live.php?id=五星体育
 #EXTVLCOPT:http-user-agent=
-🔍咪咕®4
+🔍咪咕®3
 湖南卫视,http://110.42.63.57:158/live/miguHD.php?id=湖南卫视
 浙江卫视,http://110.42.63.57:158/live/miguHD.php?id=浙江卫视
 江苏卫视,http://110.42.63.57:158/live/miguHD.php?id=江苏卫视
@@ -258,7 +224,7 @@ CHC影迷电影,http://110.42.63.57:158/live/miguHD.php?id=CHC影迷电影
 CETV1,http://110.42.63.57:158/live/miguHD.php?id=CETV1
 CETV2,http://110.42.63.57:158/live/miguHD.php?id=CETV2
 CETV4,http://110.42.63.57:158/live/miguHD.php?id=CETV4
-🔍咪咕®5
+🔍咪咕®4
 东方影视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=617290047
 东方卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=651632648
 江苏卫视,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=623899368
