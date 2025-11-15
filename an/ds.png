@@ -29,26 +29,26 @@ CCTV14 少儿,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=6248784
 
 🇨🇳 央 视,#genre#
 🔍搜集1
-CCTV1,http://iptv.666230.xyz/iptv/sxg.php/CCTV-1H265_4000
-CCTV2,http://iptv.666230.xyz/iptv/sxg.php/CCTV-2H265_4000
-CCTV3,http://iptv.666230.xyz/iptv/sxg.php/CCTV-3H265_4000
-CCTV4,http://iptv.666230.xyz/iptv/sxg.php/CCTV-4H265_4000
-CCTV5,http://iptv.666230.xyz/iptv/sxg.php/CCTV-5H265_4000
-CCTV5+,http://iptv.666230.xyz/iptv/sxg.php/CCTV-5plusH265_4000
-CCTV6,http://iptv.666230.xyz/iptv/sxg.php/CCTV-6H265_4000
-CCTV7,http://iptv.666230.xyz/iptv/sxg.php/CCTV-7H265_4000
-CCTV8,http://iptv.666230.xyz/iptv/sxg.php/CCTV-8H265_4000
-CCTV9,http://iptv.666230.xyz/iptv/sxg.php/CCTV-9H265_4000
-CCTV10,http://iptv.666230.xyz/iptv/sxg.php/CCTV-10H265_4000
-CCTV11,http://iptv.666230.xyz/iptv/sxg.php/CCTV-11-H265_4000
-CCTV12,http://iptv.666230.xyz/iptv/sxg.php/CCTV-12H265_4000
-CCTV13,http://iptv.666230.xyz/iptv/sxg.php/CCTV-xw_4000
-CCTV14,http://iptv.666230.xyz/iptv/sxg.php/CCTV-14H265_4000
-CCTV15,http://iptv.666230.xyz/iptv/sxg.php/CCTV-15-yyH265_4000
-CCTV16,http://iptv.666230.xyz/iptv/sxg.php/CCTV-16_4000
-CCTV16,http://iptv.666230.xyz/iptv/sxg.php/CCTV-16-4K_8000
-CCTV17,http://iptv.666230.xyz/iptv/sxg.php/CCTV-17_4000
-CCTV4K,http://iptv.666230.xyz/iptv/sxg.php/ys4Kcq_2000
+CCTV1 综合,http://iptv.666230.xyz/iptv/sxg.php/CCTV-1H265_4000
+CCTV2 财经,http://iptv.666230.xyz/iptv/sxg.php/CCTV-2H265_4000
+CCTV3 综艺,http://iptv.666230.xyz/iptv/sxg.php/CCTV-3H265_4000
+CCTV4 中文国际,http://iptv.666230.xyz/iptv/sxg.php/CCTV-4H265_4000
+CCTV5 体育,http://iptv.666230.xyz/iptv/sxg.php/CCTV-5H265_4000
+CCTV5+ 体育赛事,http://iptv.666230.xyz/iptv/sxg.php/CCTV-5plusH265_4000
+CCTV6 电影,http://iptv.666230.xyz/iptv/sxg.php/CCTV-6H265_4000
+CCTV7 国防军事,http://iptv.666230.xyz/iptv/sxg.php/CCTV-7H265_4000
+CCTV8 电视剧,http://iptv.666230.xyz/iptv/sxg.php/CCTV-8H265_4000
+CCTV9 纪录,http://iptv.666230.xyz/iptv/sxg.php/CCTV-9H265_4000
+CCTV10 科教,http://iptv.666230.xyz/iptv/sxg.php/CCTV-10H265_4000
+CCTV11 戏曲,http://iptv.666230.xyz/iptv/sxg.php/CCTV-11-H265_4000
+CCTV12 社会与法,http://iptv.666230.xyz/iptv/sxg.php/CCTV-12H265_4000
+CCTV13 新闻,http://iptv.666230.xyz/iptv/sxg.php/CCTV-xw_4000
+CCTV14 少儿,http://iptv.666230.xyz/iptv/sxg.php/CCTV-14H265_4000
+CCTV15 音乐,http://iptv.666230.xyz/iptv/sxg.php/CCTV-15-yyH265_4000
+CCTV16 奥林匹克,http://iptv.666230.xyz/iptv/sxg.php/CCTV-16_4000
+CCTV16 奥林匹克,http://iptv.666230.xyz/iptv/sxg.php/CCTV-16-4K_8000
+CCTV17 农业农村,http://iptv.666230.xyz/iptv/sxg.php/CCTV-17_4000
+CCTV4K 超高清,http://iptv.666230.xyz/iptv/sxg.php/ys4Kcq_2000
 
 
 
@@ -160,6 +160,7 @@ CCTV17 农业农村,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=6
 北京卫视,http://livenico.sheng17.site/php/北京4k.php?id=bjws
 北京卫视,http://xxwx.yoesun.com/xxw/北京网.php?id=bjws
 东方卫视,http://cdn.jdshipin.com/kkxw.php?id=1
+湖南卫视,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 浙江卫视,https://play-qukan.cztv.com/live/1758879019692345.m3u8
 浙江卫视,https://zwebl02.cztv.com/live/channel011080Pnew.m3u8?auth_key=2524708799-ca798ce95dda85537a46f2eb5be537be-0-ec2283c392de5aa07c72e770576478bb
 浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
