@@ -29,24 +29,24 @@ CCTV14 少儿,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=6248784
 
 🇨🇳 央 视,#genre#
 🔍搜集1
-CCTV1,http://106.53.99.30/tv/api.php?id=cctv1
-CCTV2,http://106.53.99.30/tv/api.php?id=cctv2
-CCTV3,http://106.53.99.30/tv/api.php?id=cctv3
-CCTV4,http://106.53.99.30/tv/api.php?id=cctv4
-CCTV5,http://106.53.99.30/tv/api.php?id=cctv5
-CCTV5+,http://106.53.99.30/tv/api.php?id=cctv5p
-CCTV6,http://106.53.99.30/tv/api.php?id=cctv6
-CCTV7,http://106.53.99.30/tv/api.php?id=cctv7
-CCTV8,http://106.53.99.30/tv/api.php?id=cctv8
-CCTV9,http://106.53.99.30/tv/api.php?id=cctv9
-CCTV10,http://106.53.99.30/tv/api.php?id=cctv10
-CCTV11,http://106.53.99.30/tv/api.php?id=cctv11
-CCTV12,http://106.53.99.30/tv/api.php?id=cctv12
-CCTV13,http://106.53.99.30/tv/api.php?id=cctv13
-CCTV14,http://106.53.99.30/tv/api.php?id=cctv14
-CCTV15,http://106.53.99.30/tv/api.php?id=cctv15
-CCTV16,http://106.53.99.30/tv/api.php?id=cctv16
-CCTV17,http://106.53.99.30/tv/api.php?id=cctv17
+CCTV1 综合,http://106.53.99.30/tv/api.php?id=cctv1
+CCTV2 财经,http://106.53.99.30/tv/api.php?id=cctv2
+CCTV3 综艺,http://106.53.99.30/tv/api.php?id=cctv3
+CCTV4 中文国际,http://106.53.99.30/tv/api.php?id=cctv4
+CCTV5 体育,http://106.53.99.30/tv/api.php?id=cctv5
+CCTV5+ 体育赛事,http://106.53.99.30/tv/api.php?id=cctv5p
+CCTV6 电影,http://106.53.99.30/tv/api.php?id=cctv6
+CCTV7 国防军事,http://106.53.99.30/tv/api.php?id=cctv7
+CCTV8 电视剧,http://106.53.99.30/tv/api.php?id=cctv8
+CCTV9 纪录,http://106.53.99.30/tv/api.php?id=cctv9
+CCTV10 科教,http://106.53.99.30/tv/api.php?id=cctv10
+CCTV11 戏曲,http://106.53.99.30/tv/api.php?id=cctv11
+CCTV12 社会与法,http://106.53.99.30/tv/api.php?id=cctv12
+CCTV13 新闻,http://106.53.99.30/tv/api.php?id=cctv13
+CCTV14 少儿,http://106.53.99.30/tv/api.php?id=cctv14
+CCTV15 音乐,http://106.53.99.30/tv/api.php?id=cctv15
+CCTV16 奥林匹克,http://106.53.99.30/tv/api.php?id=cctv16
+CCTV17 农业农村,http://106.53.99.30/tv/api.php?id=cctv17
 🔍搜集2
 🔍零星收集源
 CCTV1,http://106.53.99.30/tv/cctv1.php
