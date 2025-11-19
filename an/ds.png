@@ -29,28 +29,28 @@ CCTV14 少儿,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=6248784
 
 🇨🇳 央 视,#genre#
 🔍搜集1
-CCTV1 综合,http://106.53.99.30/tv/api.php?id=cctv1
-CCTV2 财经,http://106.53.99.30/tv/api.php?id=cctv2
+CCTV1 综合,http://106.53.99.30/tv/cctv1.php
+CCTV2 财经,http://mytv6688.xyz:528/douyin/uid/nuanxinnengl
+CCTV2 财经,http://106.53.99.30/tv/cctv2.php
 CCTV3 综艺,http://106.53.99.30/tv/api.php?id=cctv3
 CCTV4 中文国际,http://106.53.99.30/tv/api.php?id=cctv4
 CCTV5 体育,http://106.53.99.30/tv/api.php?id=cctv5
 CCTV5+ 体育赛事,http://106.53.99.30/tv/api.php?id=cctv5p
-CCTV6 电影,http://106.53.99.30/tv/api.php?id=cctv6
+CCTV6 电影,http://mytv6688.xyz:528/douyin/uid/cctv6media.
 CCTV7 国防军事,http://106.53.99.30/tv/api.php?id=cctv7
 CCTV8 电视剧,http://106.53.99.30/tv/api.php?id=cctv8
 CCTV9 纪录,http://106.53.99.30/tv/api.php?id=cctv9
 CCTV10 科教,http://106.53.99.30/tv/api.php?id=cctv10
 CCTV11 戏曲,http://106.53.99.30/tv/api.php?id=cctv11
 CCTV12 社会与法,http://106.53.99.30/tv/api.php?id=cctv12
-CCTV13 新闻,http://106.53.99.30/tv/api.php?id=cctv13
+CCTV13 新闻,http://mytv6688.xyz:528/douyin/uid/cctv.com
+CCTV13 新闻,http://mytv6688.xyz:528/douyin/uid/cctv_video
+CCTV13 新闻,http://106.53.99.30/tv/cctv13.php
 CCTV14 少儿,http://106.53.99.30/tv/api.php?id=cctv14
 CCTV15 音乐,http://106.53.99.30/tv/api.php?id=cctv15
 CCTV16 奥林匹克,http://106.53.99.30/tv/api.php?id=cctv16
 CCTV17 农业农村,http://106.53.99.30/tv/api.php?id=cctv17
 🔍零星收集源
-CCTV1 综合,http://106.53.99.30/tv/cctv1.php
-CCTV2 财经,http://106.53.99.30/tv/cctv2.php
-CCTV13 新闻,http://106.53.99.30/tv/cctv13.php
 CCTV1 综合,http://8.138.7.223/tv/cctv1.php
 CCTV2 财经,http://8.138.7.223/tv/cctv2.php
 CCTV6 电影,http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0
@@ -142,6 +142,7 @@ CCTV17 农业农村,https://cdn.u2186522.nyat.app:58138/php/TVODmigu720.php?id=6
 凤凰香港,http://106.53.99.30/tv/hk.php?id=fhxg
 重温经典,http://106.53.99.30/tv/api.php?id=cwjd
 北京卫视,http://106.53.99.30/tv/bj.php?id=bjws4k
+北京卫视,http://106.53.99.30/tv/bj.php?id=bjws
 东方卫视,http://106.53.99.30/tv/api.php?id=dfws4k
 湖南卫视,http://106.53.99.30/tv/api.php?id=hnws4k
 浙江卫视,http://106.53.99.30/tv/api.php?id=zjws4k
